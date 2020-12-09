@@ -2,6 +2,15 @@
   "name": "nuxt-jsonapi",
   "version": "0.0.0",
   "description": "JSON:API client for Nuxt.js",
+  "keywords": [
+    "nuxt",
+    "module",
+    "nuxt-module",
+    "vue",
+    "json",
+    "api",
+    "json:api"
+  ],
   "repository": "patrickcate/nuxt-jsonapi",
   "license": "MIT",
   "contributors": [
@@ -21,6 +30,7 @@
     "test": "yarn lint && jest"
   },
   "dependencies": {
+    "chalk": "^4.1.0",
     "kitsu": "^9.1.17"
   },
   "devDependencies": {
