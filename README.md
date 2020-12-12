@@ -2,13 +2,13 @@
 
 [![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href] [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]
 
-> JSON:API client for Nuxt.js
+> Easy JSON:API client integration for Nuxt.js
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
 ## Introduction
 
-`nuxt-jsonapi` adds easy [JSON:API](https://jsonapi.or) client integration to [Nuxt](https://nuxtjs.org). It is a loose wrapper around the excellent [Kitsu](https://github.com/wopian/kitsu/tree/master/packages/kitsu) JSON:API client.
+`nuxt-jsonapi` adds easy [JSON:API](https://jsonapi.org) client integration to [Nuxt](https://nuxtjs.org). It is a loose wrapper around the excellent [Kitsu](https://github.com/wopian/kitsu/tree/master/packages/kitsu) JSON:API client.
 
 This module globally injects a `$jsonApi` instance you can use to access the client anywhere using `this.$jsonApi`. For plugins, asyncData, fetch, nuxtServerInit and Middleware, you can access it from `context.$jsonApi`.
 
