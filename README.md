@@ -1,10 +1,12 @@
+![Nuxt JSON:API logo](https://raw.githubusercontent.com/patrickcate/nuxt-jsonapi/main/example/static/nuxt-jsonapi-logo.svg)
+
 # nuxt-jsonapi
 
 [![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href] [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]
 
 > Easy JSON:API client integration for Nuxt.js
 
-[📖 **Release Notes**](./CHANGELOG.md)
+[📖 &nbsp; **Release Notes**](./CHANGELOG.md)
 
 ## Introduction
 
