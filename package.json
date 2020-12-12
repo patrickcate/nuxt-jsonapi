@@ -26,6 +26,7 @@
   "scripts": {
     "dev": "nuxt example",
     "lint": "eslint --ext .js,.vue .",
+    "commit": "commit",
     "release": "yarn test && standard-version && git push --follow-tags && npm publish",
     "test:api-server": "node example/server.js",
     "test:unit": "yarn jest",
@@ -40,6 +41,7 @@
     "@babel/preset-env": "latest",
     "@commitlint/cli": "latest",
     "@commitlint/config-conventional": "latest",
+    "@commitlint/prompt-cli": "^11.0.0",
     "@nuxtjs/eslint-config": "latest",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
