@@ -43,6 +43,8 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
+    "eslint-config-prettier": "^7.0.0",
+    "eslint-plugin-prettier": "^3.2.0",
     "husky": "latest",
     "jest": "latest",
     "nuxt-edge": "latest",
