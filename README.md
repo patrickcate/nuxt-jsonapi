@@ -6,6 +6,12 @@
 
 [📖 **Release Notes**](./CHANGELOG.md)
 
+## Introduction
+
+`nuxt-jsonapi` adds easy [JSON:API](https://jsonapi.or) client integration to [Nuxt](https://nuxtjs.org). It is a loose wrapper around the excellent [Kitsu](https://github.com/wopian/kitsu/tree/master/packages/kitsu) JSON:API client.
+
+This module globally injects a `$jsonApi` instance you can use rto access the client anywhere using `this.$jsonApi`. For plugins, asyncData, fetch, nuxtServerInit and Middleware, you can access it from `context.$jsonApi`.
+
 ## Setup
 
 1. Add `nuxt-jsonapi` dependency to your project
@@ -26,11 +32,49 @@ yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
     [
       'nuxt-jsonapi',
       {
-        /* module options */
+        baseUrl: 'http://www.example.com/api'
+        /* other module options */
       }
     ]
   ]
 }
+```
+
+3. If you didn't pass options with step #2, add a `jsonapi` object to your `nuxt.config.js` to configure module options:
+
+```js
+export default {
+  modules: ['nuxt-jsonapi'],
+
+  jsonapi: {
+    baseUrl: 'http://www.example.com/api'
+    /* other module options */
+  }
+}
+```
+
+---
+
+## ❗ Important
+
+If you do not specify a `baseUrl` option, a default `/jsonapi` URL will be used. **This is almost certainly not what you want** so be sure it is set correctly.
+
+---
+
+## Usage
+
+Refer to [Kitsu's excellent documentation](https://github.com/wopian/kitsu/tree/master/packages/kitsu) for all the feature's the client offers.
+
+You can access the client through `this.$jsonApi` or `context.$jsonapi`.
+
+**Example:**
+
+```js
+async fetch() {
+    this.articles = await this.$jsonApi.get('/article').then(articles => {
+      return articles.data
+    })
+  }
 ```
 
 ## Development
