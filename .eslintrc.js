@@ -4,7 +4,7 @@ module.exports = {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
-  extends: ['@nuxtjs', 'plugin:prettier/recommended', 'plugin:vue/recommended'],
+  extends: ['@nuxtjs', 'plugin:prettier-vue/recommended', 'prettier/vue'],
   plugins: ['prettier'],
   rules: {
     'prettier/prettier': ['error'],

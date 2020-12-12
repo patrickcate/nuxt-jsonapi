@@ -1,7 +1,7 @@
 {
   "name": "nuxt-jsonapi",
   "version": "0.0.1",
-  "description": "JSON:API client for Nuxt.js",
+  "description": "Easy JSON:API client integration for Nuxt.js",
   "keywords": [
     "nuxt",
     "module",
@@ -50,6 +50,7 @@
     "eslint": "latest",
     "eslint-config-prettier": "^7.0.0",
     "eslint-plugin-prettier": "^3.2.0",
+    "eslint-plugin-prettier-vue": "^2.1.1",
     "fake-json-api-server": "^1.7.0",
     "husky": "latest",
     "jest": "latest",
