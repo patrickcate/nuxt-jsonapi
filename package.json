@@ -28,7 +28,7 @@
     "lint": "eslint --ext .js,.vue .",
     "lint:fix": "yarn lint --fix",
     "commit": "commit",
-    "release": "yarn test && standard-version && git push --follow-tags && npm publish",
+    "release": "yarn test && standard-version && git push --follow-tags origin main && npm publish",
     "test:api-server": "node example/server.js",
     "test:unit": "yarn jest",
     "test": "npm-run-all lint --parallel test:* -r"
