@@ -48,7 +48,7 @@
     "babel-eslint": "latest",
     "babel-jest": "latest",
     "eslint": "latest",
-    "eslint-config-prettier": "^7.0.0",
+    "eslint-config-prettier": "^7.1.0",
     "eslint-plugin-prettier": "^3.3.0",
     "eslint-plugin-prettier-vue": "^2.1.1",
     "fake-json-api-server": "^1.7.0",
