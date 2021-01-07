@@ -2439,10 +2439,10 @@ aws4@^1.8.0:
   resolved "https://registry.yarnpkg.com/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.21.0:
-  version "0.21.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.0.tgz#26df088803a2350dff2c27f96fef99fe49442aca"
-  integrity sha512-fmkJBknJKoZwem3/IKSSLpkdNXZeBu5Q7GA/aRsr2btgrptmSCxi2oFjZHqGdK9DoTil9PIHlPIZw2EcRJXRvw==
+axios@^0.21.1:
+  version "0.21.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-0.21.1.tgz#22563481962f4d6bde9a76d516ef0e5d3c09b2b8"
+  integrity sha512-dKQiRHxGD9PPRIUNIWvZhPTPpl1rf/OxTYKsqKUDjBwYylTvV7SjSHJb9ratfyzM6wCdLCOYLzs73qpg5c4iGA==
   dependencies:
     follow-redirects "^1.10.0"
 
@@ -7053,18 +7053,18 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.yarnpkg.com/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kitsu-core@^9.1.17:
-  version "9.1.17"
-  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.17.tgz#c40a29e502b24c98c1a34d8069b8576b9aca205f"
-  integrity sha512-yigXMPA2yTHdEIljcKrnKJGY2EcSbsbbf5Q3wTsetx5QRkD4Y4F4EeNg6AN5ZSMJCPxwGffPj2JWm71BlgCwsg==
+kitsu-core@^9.1.18:
+  version "9.1.18"
+  resolved "https://registry.yarnpkg.com/kitsu-core/-/kitsu-core-9.1.18.tgz#2f0a8f01a5bc3f04484e244eadd98f6704545155"
+  integrity sha512-3P5OMLtk5KhIhaVw6Oz78AzmnoqqMUpNeDusJYVpiwJdINOxTpN3RGlxf0kbiuoP+zSKaLYelIu3ELqDyCg1qw==
 
-kitsu@^9.1.17:
-  version "9.1.17"
-  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.17.tgz#4fac2bdf310fa20f25bbccde8ac573b8ce2924ff"
-  integrity sha512-YkB0UgBBb5Cu9lQ8rHE8psc+fn2g2ZdQUnjfLE/87yfCoa2Is0CJa/ZhZGlANUZgHLsZIzBlo4Mi6ikO3WbUGA==
+kitsu@^9.1.18:
+  version "9.1.18"
+  resolved "https://registry.yarnpkg.com/kitsu/-/kitsu-9.1.18.tgz#09c78df9b64ee3632209580c2f77e76fdbfda7f4"
+  integrity sha512-fjHOE72kJh1HvK3ImZJZ4SQYW4dT8abPLpFyid7Exy96/jEgdxaLT8VSONU9KSBSUM4rYEXbrKw/HGysshoBsQ==
   dependencies:
-    axios "^0.21.0"
-    kitsu-core "^9.1.17"
+    axios "^0.21.1"
+    kitsu-core "^9.1.18"
     pluralize "^8.0.0"
 
 kleur@^3.0.3:
