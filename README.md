@@ -48,7 +48,34 @@ yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
 export default {
   modules: ['nuxt-jsonapi'],
 
-  jsonapi: {
+  jsonApi: {
+    baseUrl: 'http://www.example.com/api'
+    /* other module options */
+  }
+}
+```
+
+4. If you use it with Nuxt proxy and SSR mode, do not add `axiosOptions: { proxy: true }`, and keep the axios module.
+
+```js
+export default {
+  modules: ['@nuxtjs/axios', '@nuxtjs/proxy', 'nuxt-jsonapi'],
+
+  axios: {
+    baseURL: '/api', // Attention: URL in capital case
+    proxy: true,
+  },
+
+  proxy: {
+    '/api': {
+      target: 'http://api.example.com',
+      pathRewrite: {
+        '^/api': '/api/v1', // For example
+      },
+    },
+  },
+
+  jsonApi: {
     baseUrl: 'http://www.example.com/api'
     /* other module options */
   }
@@ -71,11 +98,23 @@ You can access the client through `this.$jsonApi` or `context.$jsonapi`.
 
 **Example:**
 
+- AsyncData hook :
+
+```js
+async asyncData({ $jsonApi }) {
+    articles = await $jsonApi.get('/article')
+
+    return {
+        articles,
+    }
+  }
+```
+
+- Fetch hook
+
 ```js
 async fetch() {
-    this.articles = await this.$jsonApi.get('/article').then(articles => {
-      return articles.data
-    })
+    this.articles = await this.$jsonApi.get('/article')
   }
 ```
 
