@@ -12,6 +12,16 @@ const startServer = () =>
             type: 'article',
             id: '1',
             attributes: { title: 'Article 1' }
+          },
+          {
+            type: 'article',
+            id: '2',
+            attributes: { title: 'Article 2' }
+          },
+          {
+            type: 'article',
+            id: '3',
+            attributes: { title: 'Article 3' }
           }
         ]
       }

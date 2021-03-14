@@ -67,7 +67,7 @@ If you do not specify a `baseURL` option, a default `/jsonapi` URL will be used.
 
 Refer to [Kitsu's excellent documentation](https://github.com/wopian/kitsu/tree/master/packages/kitsu) for all the feature's the client offers.
 
-You can access the client through `this.$jsonApi` or `context.$jsonapi`.
+You can access the client through `this.$jsonApi` or `context.$jsonApi`.
 
 **Example:**
 
@@ -83,7 +83,8 @@ async fetch() {
 
 1. Clone this repository
 2. Install dependencies using `yarn install` or `npm install`
-3. Start development server using `npm run dev`
+3. Start development server using `yarn dev` or `npm run dev`
+4. Run automated tests using `yarn test` or `npm run test`
 
 ## License
 
