@@ -25,12 +25,12 @@ describe('module', () => {
   })
 
   test('should show cli message', () => {
-    const { baseUrl } = nuxt.options.jsonApi
+    const { baseURL } = nuxt.options.jsonApi
     const { badgeMessages } = nuxt.options.cli
 
     expect(badgeMessages).toContainEqual(
       expect.stringContaining('JSON:API Endpoint')
     )
-    expect(badgeMessages).toContainEqual(expect.stringContaining(baseUrl))
+    expect(badgeMessages).toContainEqual(expect.stringContaining(baseURL))
   })
 })
