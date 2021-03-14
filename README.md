@@ -34,7 +34,7 @@ yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
     [
       'nuxt-jsonapi',
       {
-        baseUrl: 'http://www.example.com/api'
+        baseURL: 'http://www.example.com/api'
         /* other module options */
       }
     ]
@@ -42,14 +42,14 @@ yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
 }
 ```
 
-3. If you didn't pass options with step #2, add a `jsonapi` object to your `nuxt.config.js` to configure module options:
+3. If you didn't pass options with step #2, add a `jsonApi` object to your `nuxt.config.js` to configure module options:
 
 ```js
 export default {
   modules: ['nuxt-jsonapi'],
 
-  jsonapi: {
-    baseUrl: 'http://www.example.com/api'
+  jsonApi: {
+    baseURL: 'http://www.example.com/api'
     /* other module options */
   }
 }
@@ -59,7 +59,7 @@ export default {
 
 ## ❗ Important
 
-If you do not specify a `baseUrl` option, a default `/jsonapi` URL will be used. **This is almost certainly not what you want** so be sure it is set correctly.
+If you do not specify a `baseURL` option, a default `/jsonapi` URL will be used. **This is almost certainly not what you want** so be sure it is set correctly.
 
 ---
 
