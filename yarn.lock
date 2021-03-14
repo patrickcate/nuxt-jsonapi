@@ -1064,7 +1064,7 @@
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.0.0"
 
-"@commitlint/prompt-cli@^12.0.0":
+"@commitlint/prompt-cli@^12.0.1":
   version "12.0.1"
   resolved "https://registry.npmjs.org/@commitlint/prompt-cli/-/prompt-cli-12.0.1.tgz#023e6ae18acb13856fa082a527d8fd5e898dfcd0"
   integrity sha512-Hk2qRwkzpZb0SDFwNpNJcpud16oOIkqsPDzHx9CelMA9h9143bMDJD1oQoDmtuNFVOb9g7+WsMCk1dgpr3kyYg==
@@ -4589,7 +4589,7 @@ escodegen@^1.14.1:
   optionalDependencies:
     source-map "~0.6.1"
 
-eslint-config-prettier@^8.0.0:
+eslint-config-prettier@^8.1.0:
   version "8.1.0"
   resolved "https://registry.npmjs.org/eslint-config-prettier/-/eslint-config-prettier-8.1.0.tgz#4ef1eaf97afe5176e6a75ddfb57c335121abc5a6"
   integrity sha512-oKMhGv3ihGbCIimCAjqkdzx2Q+jthoqnXSP+d86M9tptwugycmTFdVR4IpLgq2c4SHifbwO90z2fQ8/Aio73yw==
