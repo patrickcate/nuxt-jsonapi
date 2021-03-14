@@ -16,6 +16,8 @@ describe('module', () => {
 
     expect(html).toContain('Nuxt JSON:API Module')
     expect(html).toContain('Article 1')
+    expect(html).toContain('Article 2')
+    expect(html).toContain('Article 3')
   })
 
   test('should have nuxt $jsonApi', async () => {

@@ -24,9 +24,9 @@ export default {
     }
   },
   async fetch() {
-    this.articles = await this.$jsonApi.get('/article').then(articles => {
-      return articles.data
-    })
+    this.articles = await this.$jsonApi
+      .get('/article')
+      .then(articles => articles.data)
   }
 }
 </script>
