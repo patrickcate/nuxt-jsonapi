@@ -39,7 +39,7 @@
     "kitsu": "^9.1.18"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.10",
+    "@babel/core": "^7.13.13",
     "@babel/preset-env": "^7.13.12",
     "@commitlint/cli": "^12.0.1",
     "@commitlint/config-conventional": "^12.0.1",
@@ -48,7 +48,7 @@
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
     "babel-jest": "latest",
-    "eslint": "^7.22.0",
+    "eslint": "^7.23.0",
     "eslint-config-prettier": "^8.1.0",
     "eslint-plugin-prettier": "^3.3.1",
     "eslint-plugin-prettier-vue": "^2.1.1",
@@ -56,7 +56,7 @@
     "husky": "5",
     "jest": "latest",
     "npm-run-all": "^4.1.5",
-    "nuxt-edge": "^2.16.0-26943862.7c86c11d",
+    "nuxt-edge": "^2.16.0-26948180.9065f63e",
     "prettier": "^2.2.1",
     "standard-version": "^9.1.1"
   },
