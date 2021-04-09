@@ -39,8 +39,8 @@
     "kitsu": "^9.1.18"
   },
   "devDependencies": {
-    "@babel/core": "^7.13.14",
-    "@babel/preset-env": "^7.13.12",
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
     "@commitlint/cli": "^12.1.1",
     "@commitlint/config-conventional": "^12.1.1",
     "@commitlint/prompt-cli": "^12.1.1",
@@ -56,9 +56,9 @@
     "husky": "5",
     "jest": "latest",
     "npm-run-all": "^4.1.5",
-    "nuxt-edge": "^2.16.0-26956819.9212d34e",
+    "nuxt-edge": "^2.16.0-26965461.9212d34e",
     "prettier": "^2.2.1",
-    "standard-version": "^9.1.1"
+    "standard-version": "^9.2.0"
   },
   "publishConfig": {
     "access": "public"
