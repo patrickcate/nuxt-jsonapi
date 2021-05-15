@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.5](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.0.4...v0.0.5) (2021-05-15)
+
+
+### Features
+
+* change baseUrl option to baseURL ([a8dd505](https://github.com/patrickcate/nuxt-jsonapi/commit/a8dd505edef3dfbe50e13fee5a6d476653929c45)), closes [#14](https://github.com/patrickcate/nuxt-jsonapi/issues/14)
+
 ### [0.0.4](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.0.3...v0.0.4) (2021-02-08)
 
 
