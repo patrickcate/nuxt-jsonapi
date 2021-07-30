@@ -35,7 +35,7 @@
     "prepare": "husky install"
   },
   "dependencies": {
-    "chalk": "^4.1.1",
+    "chalk": "^4.1.2",
     "kitsu": "^9.1.19"
   },
   "devDependencies": {
