@@ -41,9 +41,9 @@
   "devDependencies": {
     "@babel/core": "^7.15.5",
     "@babel/preset-env": "^7.15.6",
-    "@commitlint/cli": "^12.1.4",
-    "@commitlint/config-conventional": "^12.1.4",
-    "@commitlint/prompt-cli": "^12.1.4",
+    "@commitlint/cli": "^13.1.0",
+    "@commitlint/config-conventional": "^13.1.0",
+    "@commitlint/prompt-cli": "^13.1.0",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",
