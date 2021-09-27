@@ -1,6 +1,6 @@
 {
   "name": "nuxt-jsonapi",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Easy JSON:API client integration for Nuxt.js",
   "keywords": [
     "nuxt",
