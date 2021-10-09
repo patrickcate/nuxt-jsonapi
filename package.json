@@ -36,14 +36,14 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "kitsu": "^9.1.19"
+    "kitsu": "^9.1.20"
   },
   "devDependencies": {
     "@babel/core": "^7.15.8",
     "@babel/preset-env": "^7.15.8",
-    "@commitlint/cli": "^13.2.0",
+    "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
-    "@commitlint/prompt-cli": "^13.2.0",
+    "@commitlint/prompt-cli": "^13.2.1",
     "@nuxtjs/eslint-config": "^6.0.1",
     "@nuxtjs/module-test-utils": "latest",
     "babel-eslint": "latest",

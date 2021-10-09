@@ -1097,14 +1097,14 @@
   resolved "https://registry.npmjs.org/@bcoe/v8-coverage/-/v8-coverage-0.2.3.tgz#75a2e8b51cb758a7553d6804a5932d7aace75c39"
   integrity sha512-0hYQ8SB4Db5zvZB4axdMHGwEaQjkZzFjQiN9LVYvIFB2nSUHW9tYpxWriPrWDASIxiaXax83REcLxuSdnGPZtw==
 
-"@commitlint/cli@^13.2.0":
-  version "13.2.0"
-  resolved "https://registry.npmjs.org/@commitlint/cli/-/cli-13.2.0.tgz#9e85756b0d0ee06c34b5635d7ef42d7a6c72bd6f"
-  integrity sha512-RqG0cxxiwaL9OgQbA2ZEfZaVIRJmbtsZgnj5G07AjN7///s/40grSN4/kDl8YjUgvAZskPfJRoGGYNvHJ4zHWA==
+"@commitlint/cli@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@commitlint/cli/-/cli-13.2.1.tgz#80ebd46beef6ceed3bb0c0842bcda8d02a3c91de"
+  integrity sha512-JGzYk2ay5JkRS5w+FLQzr0u/Kih52ds4HPpa3vnwVOQN8Q+S1VYr8Nk/6kRm6uNYsAcC1nejtuDxRdLcLh/9TA==
   dependencies:
     "@commitlint/format" "^13.2.0"
     "@commitlint/lint" "^13.2.0"
-    "@commitlint/load" "^13.2.0"
+    "@commitlint/load" "^13.2.1"
     "@commitlint/read" "^13.2.0"
     "@commitlint/types" "^13.2.0"
     lodash "^4.17.19"
@@ -1158,10 +1158,10 @@
     "@commitlint/rules" "^13.2.0"
     "@commitlint/types" "^13.2.0"
 
-"@commitlint/load@^13.2.0":
-  version "13.2.0"
-  resolved "https://registry.npmjs.org/@commitlint/load/-/load-13.2.0.tgz#6bd90b803f7fd102766731dad207cca075b67a4a"
-  integrity sha512-Nhkv+hwWCCxWGjmE9jd1U8kfGGCkZVpwzlTtdKxpY+Aj2VCFg3BjY+qA81pMF3oAsIpxchSaZG5llb8kduVjYg==
+"@commitlint/load@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@commitlint/load/-/load-13.2.1.tgz#d5d926dbd05021c02837c438ff1057025b28b745"
+  integrity sha512-qlaJkj0hfa9gtWRfCfbgFBTK3GYQRmjZhba4l9mUu4wV9lEZ4ICFlrLtd/8kaLXf/8xbrPhkAPkVFOAqM0YwUQ==
   dependencies:
     "@commitlint/execute-rule" "^13.2.0"
     "@commitlint/resolve-extends" "^13.2.0"
@@ -1171,6 +1171,7 @@
     cosmiconfig "^7.0.0"
     lodash "^4.17.19"
     resolve-from "^5.0.0"
+    typescript "^4.4.3"
 
 "@commitlint/message@^13.2.0":
   version "13.2.0"
@@ -1186,20 +1187,20 @@
     conventional-changelog-angular "^5.0.11"
     conventional-commits-parser "^3.2.2"
 
-"@commitlint/prompt-cli@^13.2.0":
-  version "13.2.0"
-  resolved "https://registry.npmjs.org/@commitlint/prompt-cli/-/prompt-cli-13.2.0.tgz#b70429ee728632777f986845c1c2f842de94f1ee"
-  integrity sha512-LVXFJ293FfgDDpABp3MZAoK05PifKttxUWMJRu7vCBBBt6zO+zMfvZeXjhPrLya/cWBWAmcLaj002+Pfb0k4fA==
+"@commitlint/prompt-cli@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@commitlint/prompt-cli/-/prompt-cli-13.2.1.tgz#f17108217df2d159a9f88095fde78eeb4a489878"
+  integrity sha512-hDkZgqnDuvCvAQn/ZFR5bS6IxmaGCwKTkqWVNl14Ve5XWYX9TOyyGLfTOQ6zCV8pZhbEZlaGa6oMHDmbkbxcBA==
   dependencies:
-    "@commitlint/prompt" "^13.2.0"
+    "@commitlint/prompt" "^13.2.1"
     execa "^5.0.0"
 
-"@commitlint/prompt@^13.2.0":
-  version "13.2.0"
-  resolved "https://registry.npmjs.org/@commitlint/prompt/-/prompt-13.2.0.tgz#5fb2f331563d2dd2a1e5e3700aab3b49d0a0fd59"
-  integrity sha512-PYPqsDKkCuAle6HGfSVFop0ncS5AURNXD3InJ5sDTOfs8V6zfXBaNANaX1hLKFJaZ7O4YnpGGVIk8YlYoevLww==
+"@commitlint/prompt@^13.2.1":
+  version "13.2.1"
+  resolved "https://registry.npmjs.org/@commitlint/prompt/-/prompt-13.2.1.tgz#c2e15ad35a26b6b9a7192fb4089ca45d27e11416"
+  integrity sha512-V5/zvz94wZgRA2cfFFQzG0tv1lfv0OKp4+qiUYYYUGlfztKoNxyZC96KXYADfzX9/fepaT54y8FpSN/+6gc0YQ==
   dependencies:
-    "@commitlint/load" "^13.2.0"
+    "@commitlint/load" "^13.2.1"
     "@commitlint/types" "^13.2.0"
     chalk "^4.0.0"
     lodash "^4.17.19"
@@ -2794,12 +2795,12 @@ aws4@^1.8.0:
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.21.1:
-  version "0.21.4"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.21.4.tgz#c67b90dc0568e5c1cf2b0b858c43ba28e2eda575"
-  integrity sha512-ut5vewkiu8jjGBdqpM44XxjuCjq9LAKeHVmoVfHVzy8eHgxxq8SbAVQNovDA8mVi05kP0Ea/n/UzcSHcTJQfNg==
+axios@^0.22.0:
+  version "0.22.0"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.22.0.tgz#bf702c41fb50fbca4539589d839a077117b79b25"
+  integrity sha512-Z0U3uhqQeg1oNcihswf4ZD57O3NrR1+ZXhxaROaWpDmsDTx7T2HNBV2ulBtie2hwJptu8UvgnJoK+BIqdzh/1w==
   dependencies:
-    follow-redirects "^1.14.0"
+    follow-redirects "^1.14.4"
 
 babel-eslint@latest:
   version "10.1.0"
@@ -5513,7 +5514,7 @@ flush-write-stream@^1.0.0:
     inherits "^2.0.3"
     readable-stream "^2.3.6"
 
-follow-redirects@^1.14.0:
+follow-redirects@^1.14.4:
   version "1.14.4"
   resolved "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.14.4.tgz#838fdf48a8bbdd79e52ee51fb1c94e3ed98b9379"
   integrity sha512-zwGkiSXC1MUJG/qmeIFH2HBJx9u0V46QGUe3YR1fXG8bXQxq7fLj0RjLZQ5nubr9qNJUZrH+xUcwXEoXNpfS+g==
@@ -7338,18 +7339,18 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kitsu-core@^9.1.19:
-  version "9.1.19"
-  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-9.1.19.tgz#a0620e7d5677eb604e7102ba36692c4bf609fb29"
-  integrity sha512-h9AeRq76YHwd3TKCfjbUuysTrgOPyaiGKzwIv2BIQ+SERJDOEQmGMriAxzbRHt7rQ8d5zqbIhrwEarGXMZEvGw==
+kitsu-core@^9.1.20:
+  version "9.1.20"
+  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-9.1.20.tgz#7b63d8abb87b7ddaa65aab416f83bd2fe3a1b71c"
+  integrity sha512-d0z5almFv2BxAKSiXqyie/xVb7loKRXBEBgmADgbGuTjukQGWOPnh9mvzJGP4Yh3ZZJ4HLmyTtqbx8wCoabyaQ==
 
-kitsu@^9.1.19:
-  version "9.1.19"
-  resolved "https://registry.npmjs.org/kitsu/-/kitsu-9.1.19.tgz#8ebedec7e49afade573511f72c8c1a69dc815b2b"
-  integrity sha512-f3QsckwLEH3DxpNtUrBiIifDC6JHD5IvruWWyBiGS6+MZmedJ9KnhVS4NpInX+weDLrS0Z20Ah2gBFqptdwVtw==
+kitsu@^9.1.20:
+  version "9.1.20"
+  resolved "https://registry.npmjs.org/kitsu/-/kitsu-9.1.20.tgz#236c52812cc2cdf995bff9485bf076e4f90cbff0"
+  integrity sha512-AqYAV4P2V3wA3oV9anJ9W9Z9vCKkqI7eXHPrQJVaS/q4pxvs8GeVNtL74Gb3wyVmpy9Od1nsyqqP5lS8/QnFXw==
   dependencies:
-    axios "^0.21.1"
-    kitsu-core "^9.1.19"
+    axios "^0.22.0"
+    kitsu-core "^9.1.20"
     pluralize "^8.0.0"
 
 kleur@^3.0.3:
@@ -11341,6 +11342,11 @@ typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.npmjs.org/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
   integrity sha1-hnrHTjhkGHsdPUfZlqeOxciDB3c=
+
+typescript@^4.4.3:
+  version "4.4.3"
+  resolved "https://registry.npmjs.org/typescript/-/typescript-4.4.3.tgz#bdc5407caa2b109efd4f82fe130656f977a29324"
+  integrity sha512-4xfscpisVgqqDfPaJo5vkd+Qd/ItkoagnHpufr+i2QCHBsNYp+G7UAoyFl8aPtx879u38wPV65rZ8qbGZijalA==
 
 ua-parser-js@^0.7.28:
   version "0.7.28"
