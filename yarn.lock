@@ -2795,10 +2795,10 @@ aws4@^1.8.0:
   resolved "https://registry.npmjs.org/aws4/-/aws4-1.11.0.tgz#d61f46d83b2519250e2784daf5b09479a8b41c59"
   integrity sha512-xh1Rl34h6Fi1DC2WWKfxUTVqRsNnr6LsKz2+hfwDxQJWmrx8+c7ylaqBMcHfl1U1r2dsifOvKX3LQuLNZ+XSvA==
 
-axios@^0.22.0:
-  version "0.22.0"
-  resolved "https://registry.npmjs.org/axios/-/axios-0.22.0.tgz#bf702c41fb50fbca4539589d839a077117b79b25"
-  integrity sha512-Z0U3uhqQeg1oNcihswf4ZD57O3NrR1+ZXhxaROaWpDmsDTx7T2HNBV2ulBtie2hwJptu8UvgnJoK+BIqdzh/1w==
+axios@^0.23.0:
+  version "0.23.0"
+  resolved "https://registry.npmjs.org/axios/-/axios-0.23.0.tgz#b0fa5d0948a8d1d75e3d5635238b6c4625b05149"
+  integrity sha512-NmvAE4i0YAv5cKq8zlDoPd1VLKAqX5oLuZKs8xkJa4qi6RGn0uhCYFjWtHHC9EM/MwOwYWOs53W+V0aqEXq1sg==
   dependencies:
     follow-redirects "^1.14.4"
 
@@ -3790,16 +3790,7 @@ conventional-changelog-config-spec@2.1.0:
   resolved "https://registry.npmjs.org/conventional-changelog-config-spec/-/conventional-changelog-config-spec-2.1.0.tgz#874a635287ef8b581fd8558532bf655d4fb59f2d"
   integrity sha512-IpVePh16EbbB02V+UA+HQnnPIohgXvJRxHcS5+Uwk4AT5LjzCZJm5sp/yqs5C6KZJ1jMsV4paEV13BN1pvDuxQ==
 
-conventional-changelog-conventionalcommits@4.5.0:
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.5.0.tgz#a02e0b06d11d342fdc0f00c91d78265ed0bc0a62"
-  integrity sha512-buge9xDvjjOxJlyxUnar/+6i/aVEVGA7EEh4OafBCXPlLUQPGbRUBhBUveWRxzvR8TEjhKEP4BdepnpG2FSZXw==
-  dependencies:
-    compare-func "^2.0.0"
-    lodash "^4.17.15"
-    q "^1.5.1"
-
-conventional-changelog-conventionalcommits@^4.3.1, conventional-changelog-conventionalcommits@^4.5.0:
+conventional-changelog-conventionalcommits@4.6.1, conventional-changelog-conventionalcommits@^4.3.1, conventional-changelog-conventionalcommits@^4.5.0:
   version "4.6.1"
   resolved "https://registry.npmjs.org/conventional-changelog-conventionalcommits/-/conventional-changelog-conventionalcommits-4.6.1.tgz#f4c0921937050674e578dc7875f908351ccf4014"
   integrity sha512-lzWJpPZhbM1R0PIzkwzGBCnAkH5RKJzJfFQZcl/D+2lsJxAwGnDKBqn/F4C1RD31GJNn8NuKWQzAZDAVXPp2Mw==
@@ -7339,18 +7330,18 @@ kind-of@^6.0.0, kind-of@^6.0.2, kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kitsu-core@^9.1.20:
-  version "9.1.20"
-  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-9.1.20.tgz#7b63d8abb87b7ddaa65aab416f83bd2fe3a1b71c"
-  integrity sha512-d0z5almFv2BxAKSiXqyie/xVb7loKRXBEBgmADgbGuTjukQGWOPnh9mvzJGP4Yh3ZZJ4HLmyTtqbx8wCoabyaQ==
+kitsu-core@^9.1.21:
+  version "9.1.21"
+  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-9.1.21.tgz#79e00e0d56a7d2677857e495422ee0bb542617ca"
+  integrity sha512-V2VBeinRczlT71ZEpriyOWhasKK70udnVBFVW5MC3ac5Zimit1igla3p7znpG5P9I9V8g6zfb+6KrUGCaz9TJg==
 
-kitsu@^9.1.20:
-  version "9.1.20"
-  resolved "https://registry.npmjs.org/kitsu/-/kitsu-9.1.20.tgz#236c52812cc2cdf995bff9485bf076e4f90cbff0"
-  integrity sha512-AqYAV4P2V3wA3oV9anJ9W9Z9vCKkqI7eXHPrQJVaS/q4pxvs8GeVNtL74Gb3wyVmpy9Od1nsyqqP5lS8/QnFXw==
+kitsu@^9.1.21:
+  version "9.1.21"
+  resolved "https://registry.npmjs.org/kitsu/-/kitsu-9.1.21.tgz#5b772c5ef19adc82628c590b32a9b5032adccfc3"
+  integrity sha512-p8au6UylOh7+GxfEvh2yr4tz8gXvdg5epU4kntrZvz3TQcQH91hNS3rBC2z1eI7oKfTg1fLoiv8uelNAAaLx9w==
   dependencies:
-    axios "^0.22.0"
-    kitsu-core "^9.1.20"
+    axios "^0.23.0"
+    kitsu-core "^9.1.21"
     pluralize "^8.0.0"
 
 kleur@^3.0.3:
@@ -10653,15 +10644,15 @@ stackframe@^1.1.1:
   resolved "https://registry.npmjs.org/stackframe/-/stackframe-1.2.0.tgz#52429492d63c62eb989804c11552e3d22e779303"
   integrity sha512-GrdeshiRmS1YLMYgzF16olf2jJ/IzxXY9lhKOskuVziubpTYcYqyOwYeJKzQkwy7uN0fYSsbsC4RQaXf9LCrYA==
 
-standard-version@^9.3.1:
-  version "9.3.1"
-  resolved "https://registry.npmjs.org/standard-version/-/standard-version-9.3.1.tgz#786c16c318847f58a31a2434f97e8db33a635853"
-  integrity sha512-5qMxXw/FxLouC5nANyx/5RY1kiorJx9BppUso8gN07MG64q2uLRmrPb4KfXp3Ql4s/gxjZwZ89e0FwxeLubGww==
+standard-version@^9.3.2:
+  version "9.3.2"
+  resolved "https://registry.npmjs.org/standard-version/-/standard-version-9.3.2.tgz#28db8c1be66fd2d736f28f7c5de7619e64cd6dab"
+  integrity sha512-u1rfKP4o4ew7Yjbfycv80aNMN2feTiqseAhUhrrx2XtdQGmu7gucpziXe68Z4YfHVqlxVEzo4aUA0Iu3VQOTgQ==
   dependencies:
     chalk "^2.4.2"
     conventional-changelog "3.1.24"
     conventional-changelog-config-spec "2.1.0"
-    conventional-changelog-conventionalcommits "4.5.0"
+    conventional-changelog-conventionalcommits "4.6.1"
     conventional-recommended-bump "6.1.0"
     detect-indent "^6.0.0"
     detect-newline "^3.1.0"
