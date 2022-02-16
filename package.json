@@ -39,7 +39,7 @@
     "kitsu": "^9.1.23"
   },
   "devDependencies": {
-    "@babel/core": "^7.17.2",
+    "@babel/core": "^7.17.4",
     "@babel/preset-env": "^7.16.11",
     "@commitlint/cli": "^13.2.1",
     "@commitlint/config-conventional": "^13.2.0",
