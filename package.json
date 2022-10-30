@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "chalk": "^4.1.2",
-    "kitsu": "^9.1.29"
+    "kitsu": "^10.0.4"
   },
   "devDependencies": {
     "@babel/core": "^7.19.6",
