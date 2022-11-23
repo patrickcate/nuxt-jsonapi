@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.1.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.0.6...v0.1.0) (2022-11-23)
+
+
+### ⚠ BREAKING CHANGES
+
+* Kitsu library has been updated to v10. See library changes:
+
+https://github.com/wopian/kitsu/blob/master/packages/kitsu/MIGRATING.md
+* baseUrl option has been removed. Use baseURL option instead.
+
+### Features
+
+* remove deprecated baseUrl option ([a014251](https://github.com/patrickcate/nuxt-jsonapi/commit/a014251ea52ed57afd6724d7b20e39bf75b6befa))
+* update Kitsu library to v10 ([90c57a1](https://github.com/patrickcate/nuxt-jsonapi/commit/90c57a13ef35b3defbb3d574cbb8290755ebbbe1))
+
 ### [0.0.6](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.0.5...v0.0.6) (2021-09-27)
 
 ### [0.0.5](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.0.4...v0.0.5) (2021-05-15)
