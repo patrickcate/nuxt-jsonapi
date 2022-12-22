@@ -1,0 +1,25 @@
+default: true
+
+# ===
+# Rule customizations for markdownlint go here
+# https://github.com/DavidAnson/markdownlint/blob/master/doc/Rules.md
+# ===
+
+# Disable line length restrictions, because editor soft-wrapping is being
+# used instead.
+line-length: false
+
+# Allow the `Meta` MDX component.
+no-inline-html:
+  allowed_elements:
+    - 'Meta'
+
+# Don't require the first element to be a heading tag.
+first-line-heading: false
+
+# ===
+# Prettier overrides
+# ===
+
+no-multiple-blanks: false
+list-marker-space: false

@@ -1,6 +1,16 @@
+<script setup>
+import { ref } from 'vue'
+import { useNuxtApp } from '#app'
+
+const { $jsonApi } = useNuxtApp()
+
+const baseUrl = ref($jsonApi.axios.defaults.baseURL)
+</script>
+
 <template>
   <div class="container">
     <h1 class="text-center">Nuxt JSON:API Module</h1>
+
     <img
       src="/nuxt-jsonapi-logo.svg"
       alt="Nuxt JSON:API logo"
@@ -8,28 +18,16 @@
       height="104"
       class="logo center"
     />
-    <ul v-if="articles.length">
-      <li v-for="article in articles" :key="article.id">
-        {{ article.title }}
-      </li>
-    </ul>
+
+    <h2>Base URL: {{ baseUrl }}</h2>
+
+    <h2>Options API</h2>
+    <OptionArticles></OptionArticles>
+
+    <h2>Composition API</h2>
+    <CompositionArticles></CompositionArticles>
   </div>
 </template>
-
-<script>
-export default {
-  data() {
-    return {
-      articles: []
-    }
-  },
-  async fetch() {
-    this.articles = await this.$jsonApi
-      .get('/article')
-      .then(articles => articles.data)
-  }
-}
-</script>
 
 <style>
 .logo {
