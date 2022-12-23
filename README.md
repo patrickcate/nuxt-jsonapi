@@ -8,11 +8,15 @@
 
 [📖 &nbsp; **Release Notes**](./CHANGELOG.md)
 
+Version `2.x` support Nuxt `3.x`.
+
+[Version `1.x`](https://github.com/patrickcate/nuxt-jsonapi/tree/v1.0.0) supports Nuxt `2.x`
+
 ## Introduction
 
 `nuxt-jsonapi` adds easy [JSON:API](https://jsonapi.org) client integration to [Nuxt](https://nuxtjs.org). It is a loose wrapper around the excellent [Kitsu](https://github.com/wopian/kitsu/tree/master/packages/kitsu) JSON:API client.
 
-This module globally injects a `$jsonApi` instance you can use to access the client anywhere using `this.$jsonApi`. For plugins, asyncData, fetch, nuxtServerInit and Middleware, you can access it from `context.$jsonApi`.
+This module globally injects a `$jsonApi` instance you can use to access the client anywhere using `this.$jsonApi` (options API) or `const { $jsonApi } = useNuxtApp()` (composition API).
 
 ## Setup
 
@@ -34,10 +38,10 @@ yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
     [
       'nuxt-jsonapi',
       {
-        baseURL: 'http://www.example.com/api'
+        baseURL: 'http://www.example.com/api',
         /* other module options */
-      }
-    ]
+      },
+    ],
   ]
 }
 ```
@@ -49,9 +53,9 @@ export default {
   modules: ['nuxt-jsonapi'],
 
   jsonApi: {
-    baseURL: 'http://www.example.com/api'
+    baseURL: 'http://www.example.com/api',
     /* other module options */
-  }
+  },
 }
 ```
 
@@ -67,16 +71,46 @@ If you do not specify a `baseURL` option, a default `/jsonapi` URL will be used.
 
 Refer to [Kitsu's excellent documentation](https://github.com/wopian/kitsu/tree/master/packages/kitsu) for all the feature's the client offers.
 
-You can access the client through `this.$jsonApi` or `context.$jsonApi`.
+You can access the client with:
+
+### Options API
+
+```js
+this.$jsonApi
+```
 
 **Example:**
 
 ```js
-async fetch() {
-    this.articles = await this.$jsonApi.get('/article').then(articles => {
-      return articles.data
-    })
-  }
+export default defineNuxtComponent({
+  async asyncData({ $jsonApi }) {
+    const { data } = await $jsonApi.get('/article')
+
+    return {
+      articles: data,
+    }
+  },
+})
+```
+
+### Composition API
+
+```js
+const { $jsonApi } = useNuxtApp()
+```
+
+**Example:**
+
+```vue
+<script setup>
+import { useNuxtApp, useAsyncData } from '#app'
+
+const { $jsonApi } = useNuxtApp()
+
+const { data: articles } = await useAsyncData(() => $jsonApi.get('/article'), {
+  transform: ({ data }) => data,
+})
+</script>
 ```
 
 ## Development
@@ -85,6 +119,9 @@ async fetch() {
 2. Install dependencies using `yarn install` or `npm install`
 3. Start development server using `yarn dev` or `npm run dev`
 4. Run automated tests using `yarn test` or `npm run test`
+
+- Run `npm run dev:prepare` to generate type stubs.
+- Use `npm run dev` to start [playground](./playground) in development mode.
 
 ## License
 

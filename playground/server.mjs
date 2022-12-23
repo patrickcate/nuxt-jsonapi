@@ -1,9 +1,9 @@
 // server.js
-const FakeServer = require('fake-json-api-server/src/nodeServer')
+import FakeServer from 'fake-json-api-server/src/nodeServer.js'
 
-const startServer = () =>
+const startServer = (baseApiUrl = '/jsonapi/') =>
   new FakeServer({
-    baseApiUrl: '/jsonapi/',
+    baseApiUrl,
     port: 9999,
     resources: {
       article: {
@@ -11,21 +11,21 @@ const startServer = () =>
           {
             type: 'article',
             id: '1',
-            attributes: { title: 'Article 1' }
+            attributes: { title: 'Article 1' },
           },
           {
             type: 'article',
             id: '2',
-            attributes: { title: 'Article 2' }
+            attributes: { title: 'Article 2' },
           },
           {
             type: 'article',
             id: '3',
-            attributes: { title: 'Article 3' }
-          }
-        ]
-      }
-    }
+            attributes: { title: 'Article 3' },
+          },
+        ],
+      },
+    },
   })
 
 startServer()
