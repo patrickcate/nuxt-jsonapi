@@ -1,3 +1,17 @@
+Changelog
+
+# [2.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v1.0.0...v2.0.0) (2022-12-23)
+
+
+### Features
+
+* update module to support Nuxt 3.x ([66b07b8](https://github.com/patrickcate/nuxt-jsonapi/commit/66b07b8687ddb2d11a431a890b12d8f8a32fe28c))
+
+
+### BREAKING CHANGES
+
+* The module now requires Nuxt version 3.x
+
 # Changelog
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
