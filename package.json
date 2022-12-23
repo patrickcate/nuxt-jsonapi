@@ -46,7 +46,7 @@
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
     "prepare": "husky install",
     "commit": "cz",
-    "lint": "eslint --fix --ext .js,.ts,.vue .",
+    "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.vue .",
     "test:api-server": "node playground/server.mjs",
     "test:vitest": "yarn vitest run --coverage",
     "test": "npm-run-all dev:prepare lint --parallel test:* -r",
@@ -93,7 +93,7 @@
     }
   },
   "lint-staged": {
-    "*.{js,ts,vue}": [
+    "*.{js,mjs,cjs,ts,vue}": [
       "eslint"
     ]
   }

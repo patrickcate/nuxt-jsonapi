@@ -1,5 +1,5 @@
-import { defineNuxtPlugin } from '#app'
 import Kitsu from 'kitsu'
+import { defineNuxtPlugin } from '#app'
 
 export default defineNuxtPlugin(nuxtApp => {
   const { jsonApi: options } = nuxtApp.payload.config.public

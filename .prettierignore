@@ -5,3 +5,4 @@ dist
 coverage
 .nvmrc
 CHANGELOG.md
+playground/.*

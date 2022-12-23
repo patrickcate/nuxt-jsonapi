@@ -1,4 +1,4 @@
-![Nuxt JSON:API logo](https://raw.githubusercontent.com/patrickcate/nuxt-jsonapi/main/example/static/nuxt-jsonapi-logo.svg)
+![Nuxt JSON:API logo](https://raw.githubusercontent.com/patrickcate/nuxt-jsonapi/main/playground/public/nuxt-jsonapi-logo.svg)
 
 # nuxt-jsonapi
 
