@@ -1,4 +1,4 @@
-Changelog
+# Changelog
 
 # [2.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v1.0.0...v2.0.0) (2022-12-23)
 
@@ -11,10 +11,6 @@ Changelog
 ### BREAKING CHANGES
 
 * The module now requires Nuxt version 3.x
-
-# Changelog
-
-All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
 ## [1.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v0.1.1...v1.0.0) (2022-11-23)
 
