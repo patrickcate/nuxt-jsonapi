@@ -29,10 +29,18 @@ jobs:
           key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
 
       - name: Install dependencies
-        if: steps.cache.outputs.cache-hit != 'true'
-        run: yarn
+        run: yarn install
 
-      - name: Test
+      - name: Lint
+        run: yarn lint
+
+      - name: Check types
+        run: yarn types
+
+      - name: Setup playground
+        run: yarn dev:prepare
+
+      - name: Run tests
         run: yarn test
 
       - name: Upload coverage to Codecov

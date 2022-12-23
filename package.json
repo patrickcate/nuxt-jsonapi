@@ -40,16 +40,18 @@
   ],
   "scripts": {
     "prepack": "nuxt-module-build",
-    "build": "yarn prepack",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
     "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
+    "build:module": "nuxt-module-build",
+    "build:playground": "nuxi build playground",
     "prepare": "husky install",
     "commit": "cz",
     "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.vue .",
+    "types": "tsc --noEmit",
     "test:api-server": "node playground/server.mjs",
     "test:vitest": "yarn vitest run --coverage",
-    "test": "npm-run-all dev:prepare lint --parallel test:* -r",
+    "test": "npm-run-all --parallel test:* -r",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
