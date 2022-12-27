@@ -47,6 +47,7 @@ module.exports = {
       'List any ISSUES CLOSED by this change (optional). E.g.: #31, #34:\n',
     confirmCommit: 'Are you sure you want to proceed with the commit above?'
   },
+  scopes: ['npm', 'github-actions', 'cypress', 'release', 'no-release'],
   allowCustomScopes: false,
   allowBreakingChanges: ['feat', 'fix']
 }
