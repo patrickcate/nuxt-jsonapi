@@ -11,7 +11,7 @@ updates:
       - 'patrickcate'
     commit-message:
       # Prefix all commit messages with "chore"
-      prefix: 'chore (github-actions)'
+      prefix: 'chore (npm)'
     versioning-strategy: lockfile-only
     open-pull-requests-limit: 20
 
@@ -24,4 +24,4 @@ updates:
       - 'patrickcate'
     commit-message:
       # Prefix all commit messages with "chore"
-      prefix: 'chore (npm)'
+      prefix: 'chore (github-actions)'
