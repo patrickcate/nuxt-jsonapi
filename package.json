@@ -89,14 +89,17 @@
   "publishConfig": {
     "access": "public"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    }
-  },
   "lint-staged": {
     "*.{js,mjs,cjs,ts,vue}": [
       "eslint"
     ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz-config.cjs"
+    }
   }
 }
