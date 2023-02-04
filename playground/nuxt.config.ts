@@ -8,8 +8,12 @@ export default defineNuxtConfig({
       },
     },
   },
-  modules: ['../src/module'],
-  jsonApi: {
-    baseURL: 'http://localhost:9999/jsonapi',
-  },
+  modules: [
+    [
+      '../src/module',
+      {
+        baseURL: 'http://localhost:9999/jsonapi',
+      },
+    ],
+  ],
 })
