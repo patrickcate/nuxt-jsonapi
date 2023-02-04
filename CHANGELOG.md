@@ -1,5 +1,13 @@
 # Changelog
 
+## [2.0.1](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.0...v2.0.1) (2023-02-04)
+
+
+### Bug Fixes
+
+* add 'axios' and 'pluralize' to vite optimized deps ([2b9adc2](https://github.com/patrickcate/nuxt-jsonapi/commit/2b9adc2ce5f44582409bebc7196c11b04813de09))
+* fix dependabot prefix ([61aca90](https://github.com/patrickcate/nuxt-jsonapi/commit/61aca909438a87cd42b914bf8465f3d53e712bf0))
+
 # [2.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v1.0.0...v2.0.0) (2022-12-23)
 
 
