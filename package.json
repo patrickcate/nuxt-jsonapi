@@ -49,9 +49,10 @@
     "commit": "cz",
     "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.vue .",
     "types": "tsc --noEmit",
-    "test:api-server": "node playground/server.mjs",
+    "test:api-server": "node playground/server.mjs &",
     "test:vitest": "yarn vitest run --coverage",
-    "test": "npm-run-all --parallel test:* -r",
+    "test": "npm-run-all test:*",
+    "posttest": "pkill -f playground/server.mjs",
     "semantic-release": "semantic-release"
   },
   "dependencies": {
