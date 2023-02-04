@@ -32,10 +32,17 @@ export default defineNuxtModule<ModuleOptions>({
     baseURL: '/jsonapi',
   },
   setup(options, nuxt) {
+    nuxt.options.runtimeConfig.public = nuxt.options.runtimeConfig.public || {}
     nuxt.options.runtimeConfig.public.jsonApi = defu(
       nuxt.options.runtimeConfig.public.jsonApi,
       options,
     )
+
+    // Remove once Kitsu switches to Axios >= 1.0 which uses ESM modules.
+    nuxt.options.vite.optimizeDeps = nuxt.options.vite.optimizeDeps || {}
+    nuxt.options.vite.optimizeDeps.include =
+      nuxt.options.vite.optimizeDeps.include || []
+    nuxt.options.vite.optimizeDeps.include.push('axios', 'pluralize')
 
     const { resolve } = createResolver(import.meta.url)
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
