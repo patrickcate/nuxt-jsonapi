@@ -8,11 +8,6 @@ describe('env variable', async () => {
 
   await setup({
     rootDir: fileURLToPath(new URL('../playground', import.meta.url)),
-    nuxtConfig: {
-      jsonApi: {
-        baseURL: 'http://localhost:9999/doesnotexist',
-      },
-    },
   })
 
   it('should use env set baseURL', async () => {
