@@ -1,0 +1,27 @@
+# Dependabot config.
+version: 2
+updates:
+  # Maintain dependencies for npm
+  - package-ecosystem: 'npm'
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    # Add assignees
+    assignees:
+      - 'patrickcate'
+    commit-message:
+      # Prefix all commit messages with "chore"
+      prefix: 'chore (npm)'
+    versioning-strategy: lockfile-only
+    open-pull-requests-limit: 20
+
+  - package-ecosystem: github-actions
+    directory: '/'
+    schedule:
+      interval: 'daily'
+    # Add assignees
+    assignees:
+      - 'patrickcate'
+    commit-message:
+      # Prefix all commit messages with "chore"
+      prefix: 'chore (github-actions)'
