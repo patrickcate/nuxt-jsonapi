@@ -1057,7 +1057,7 @@
     pathe "^1.0.0"
     unbuild "^1.0.1"
 
-"@nuxt/schema@3.1.2", "@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.1.2":
   version "3.1.2"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.1.2.tgz#a916ecfa96c04553403f7da8d1e7058f65cb3ad1"
   integrity sha512-wru9LhRXTa6WQlx7c0oYrtvJY7TiVlkBKXY5Rsmfo0StJuWohgZiReu9fu6z6GU4MzZlX25TVjwvq9Q7bNVbSQ==
@@ -1074,6 +1074,25 @@
     std-env "^3.3.2"
     ufo "^1.0.1"
     unimport "^2.1.0"
+    untyped "^1.2.2"
+
+"@nuxt/schema@^3.0.0":
+  version "3.2.0"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.2.0.tgz#b1e072515db70b8f921b7d6f597f91b6f42573e8"
+  integrity sha512-tz9RandI5LgbT9BQ8dE8n4kItV7+4OUgbX42YemcGbtORVJAWJJvQyHGikJ5akUgiTFYTV8tjV6pRPH9Txx0Pg==
+  dependencies:
+    c12 "^1.1.0"
+    create-require "^1.1.1"
+    defu "^6.1.2"
+    hookable "^5.4.2"
+    jiti "^1.17.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.1"
+    postcss-import-resolver "^2.0.0"
+    scule "^1.0.0"
+    std-env "^3.3.2"
+    ufo "^1.0.1"
+    unimport "^2.2.4"
     untyped "^1.2.2"
 
 "@nuxt/telemetry@^2.1.9":
@@ -5601,10 +5620,10 @@ java-properties@^1.0.0:
   resolved "https://registry.npmjs.org/java-properties/-/java-properties-1.0.2.tgz#ccd1fa73907438a5b5c38982269d0e771fe78211"
   integrity sha512-qjdpeo2yKlYTH7nFdK0vbZWuTCesk4o63v5iVOlhMQPfuIZQfW/HI35SjfhA+4qpg36rnFSvUK5b1m+ckIblQQ==
 
-jiti@^1.16.0, jiti@^1.16.2:
-  version "1.16.2"
-  resolved "https://registry.npmjs.org/jiti/-/jiti-1.16.2.tgz#75f7a0a8fde4a0e57e576f7d329491d588db89cf"
-  integrity sha512-OKBOVWmU3FxDt/UH4zSwiKPuc1nihFZiOD722FuJlngvLz2glX1v2/TJIgoA4+mrpnXxHV6dSAoCvPcYQtoG5A==
+jiti@^1.16.0, jiti@^1.16.2, jiti@^1.17.0:
+  version "1.17.0"
+  resolved "https://registry.npmjs.org/jiti/-/jiti-1.17.0.tgz#9a4e1787b9d83e594a5ad27cdf9c9ab555112ac1"
+  integrity sha512-CByzPgFqYoB9odEeef7GNmQ3S5THIBOtzRYoSCya2Sv27AuQxy2jgoFjQ6VTF53xsq1MXRm+YWNvOoDHUAteOw==
 
 js-sdsl@^4.1.4:
   version "4.2.0"
@@ -8665,12 +8684,7 @@ statuses@2.0.1:
   resolved "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
-std-env@^3.3.1:
-  version "3.3.1"
-  resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.1.tgz#93a81835815e618c8aa75e7c8a4dc04f7c314e29"
-  integrity sha512-3H20QlwQsSm2OvAxWIYhs+j01MzzqwMwGiiO1NQaJYZgJZFPuAbf95/DiKRBSTYIJ2FeGUc+B/6mPGcWP9dO3Q==
-
-std-env@^3.3.2:
+std-env@^3.3.1, std-env@^3.3.2:
   version "3.3.2"
   resolved "https://registry.npmjs.org/std-env/-/std-env-3.3.2.tgz#af27343b001616015534292178327b202b9ee955"
   integrity sha512-uUZI65yrV2Qva5gqE0+A7uVAvO40iPo6jGhs7s8keRfHCmtg+uB2X6EiLGCI9IgL1J17xGhvoOqSz79lzICPTA==
@@ -9297,10 +9311,10 @@ unhead@^1.0.20:
     "@unhead/schema" "1.0.20"
     hookable "^5.4.2"
 
-unimport@^2.1.0:
-  version "2.1.0"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-2.1.0.tgz#d1c5bfe29f8ef1625816e2f6f3250fa2c1ec28c1"
-  integrity sha512-GDVIxATluUquX8EqelT6DtnmnZaXGID1jsO9IXwlnxb0OIEqKAxTOnTlnGmHbseoGTh+ZC9kcNDaO18HYQj9KA==
+unimport@^2.1.0, unimport@^2.2.4:
+  version "2.2.4"
+  resolved "https://registry.npmjs.org/unimport/-/unimport-2.2.4.tgz#3d0c7fb354e54ba277e58725aac73fbebabee0c7"
+  integrity sha512-qMgmeEGqqrrmEtm0dqxMG37J6xBtrriqxq9hILvDb+e6l2F0yTnJomLoCCp0eghLR7bYGeBsUU5Y0oyiUYhViw==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
