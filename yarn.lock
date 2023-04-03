@@ -1184,7 +1184,7 @@
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.0.tgz#c7bd7e9a516514e612d5d2e511ffc399e0eac322"
   integrity sha512-YBI/6o2EBz02tdEJRBK8xkt3zvOFOWlLBf7WKYGBsSYSRtjjgrqPe2skp6VLLmKx5WbHHDNcW+6oACaurxGzeA==
 
-"@nuxt/kit@3.3.2", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0":
+"@nuxt/kit@3.3.2":
   version "3.3.2"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.3.2.tgz#e3cd19c0f5cd0f124fff6f659a5f25002f808946"
   integrity sha512-mHucMYuN/nVJp0p+L6ezzEls8Y1PerAXCJi01lS3Z5ozz+l2OusEfes8EBxWcy3x0C5465ignXCujQs3/LAvnQ==
@@ -1207,6 +1207,30 @@
     unctx "^2.1.2"
     unimport "^3.0.4"
     untyped "^1.2.2"
+
+"@nuxt/kit@3.3.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0":
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.3.3.tgz#14706db145101750ac4ab75f2cc6d5a5c507c51b"
+  integrity sha512-8ql3DweT1BNOCM6mmP8st+33NCAHHvmQuOS6Q75kXMZ6Ygqv06hxp5slpLXpT1ZOEoM+vzfkjO2lJ3rnjWYC4Q==
+  dependencies:
+    "@nuxt/schema" "3.3.3"
+    c12 "^1.2.0"
+    consola "^2.15.3"
+    defu "^6.1.2"
+    globby "^13.1.3"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.18.2"
+    knitwork "^1.0.0"
+    lodash.template "^4.5.0"
+    mlly "^1.2.0"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    scule "^1.0.0"
+    semver "^7.3.8"
+    unctx "^2.1.2"
+    unimport "^3.0.4"
+    untyped "^1.3.2"
 
 "@nuxt/module-builder@^0.2.1":
   version "0.2.1"
@@ -1238,7 +1262,7 @@
     unimport "^3.0.4"
     untyped "^1.2.2"
 
-"@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.3.3", "@nuxt/schema@^3.0.0":
   version "3.3.3"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.3.3.tgz#8b7c6965120b3210f426946479181a1d2902293f"
   integrity sha512-OxedDFqBJG8bfTEDOH5hVbQLXpFpSmBOM/oC6J4dTqM2GiWxYJysML5Lo7FPSMqFkTtgxVmd75bp+DRPE5XzWA==
@@ -1284,12 +1308,12 @@
     std-env "^3.3.2"
 
 "@nuxt/test-utils@^3.0.0":
-  version "3.3.2"
-  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.3.2.tgz#6c5eb3459c4933648752512174410ee23fdc701c"
-  integrity sha512-ai6GE90y7d2bL1TxgI9WgNXZWPHEhS5UZQjP89kA+elCDePzZ6iJzkDaH4fdK2Dz0yHtiRsj4YDE4HjQ3EABug==
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.3.3.tgz#29211835727d98e4b589b1db66e11e4610bafd3e"
+  integrity sha512-uZSRVWGZditPc7hfEtntV/42UxhOE1yuOyXrikpEkDDId2m1+yHg7hiBfjXMzZpiKH5hvjQa/gvO1Qj2Ni5TMw==
   dependencies:
-    "@nuxt/kit" "3.3.2"
-    "@nuxt/schema" "3.3.2"
+    "@nuxt/kit" "3.3.3"
+    "@nuxt/schema" "3.3.3"
     consola "^2.15.3"
     defu "^6.1.2"
     execa "^7.1.1"
