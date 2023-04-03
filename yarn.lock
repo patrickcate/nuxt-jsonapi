@@ -1418,12 +1418,12 @@
     std-env "^3.3.2"
 
 "@nuxt/test-utils@^3.0.0":
-  version "3.3.2"
-  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.3.2.tgz#6c5eb3459c4933648752512174410ee23fdc701c"
-  integrity sha512-ai6GE90y7d2bL1TxgI9WgNXZWPHEhS5UZQjP89kA+elCDePzZ6iJzkDaH4fdK2Dz0yHtiRsj4YDE4HjQ3EABug==
+  version "3.3.3"
+  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.3.3.tgz#29211835727d98e4b589b1db66e11e4610bafd3e"
+  integrity sha512-uZSRVWGZditPc7hfEtntV/42UxhOE1yuOyXrikpEkDDId2m1+yHg7hiBfjXMzZpiKH5hvjQa/gvO1Qj2Ni5TMw==
   dependencies:
-    "@nuxt/kit" "3.3.2"
-    "@nuxt/schema" "3.3.2"
+    "@nuxt/kit" "3.3.3"
+    "@nuxt/schema" "3.3.3"
     consola "^2.15.3"
     defu "^6.1.2"
     execa "^7.1.1"
