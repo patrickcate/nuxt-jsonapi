@@ -1318,7 +1318,7 @@
     unimport "^3.0.4"
     untyped "^1.3.2"
 
-"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0":
+"@nuxt/kit@3.4.0", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.2.0":
   version "3.4.0"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.4.0.tgz#6b5df545f73b0279420ad17944a9b58293edc842"
   integrity sha512-CBS1wyyGnXpmzIDINnL96WPLvTjf2IQXrgz/hSKTUWra9h/iO/crLjqcuJWpIIMS420qiRoTnHDFALAXY8ktsw==
@@ -1418,19 +1418,20 @@
     std-env "^3.3.2"
 
 "@nuxt/test-utils@^3.0.0":
-  version "3.3.3"
-  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.3.3.tgz#29211835727d98e4b589b1db66e11e4610bafd3e"
-  integrity sha512-uZSRVWGZditPc7hfEtntV/42UxhOE1yuOyXrikpEkDDId2m1+yHg7hiBfjXMzZpiKH5hvjQa/gvO1Qj2Ni5TMw==
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.4.0.tgz#2bda289894024a24c01330f2952c8df47fce3cad"
+  integrity sha512-uYD2JNBQrUAwez6mvBHydfcPNA5rJcI0ikZ2YtR29j1uzPkF9+olR8PqZO3S5nU5RtIK+F9ZVrlKchvmsG33Dg==
   dependencies:
-    "@nuxt/kit" "3.3.3"
-    "@nuxt/schema" "3.3.3"
-    consola "^2.15.3"
+    "@nuxt/kit" "3.4.0"
+    "@nuxt/schema" "3.4.0"
+    consola "^3.0.1"
     defu "^6.1.2"
     execa "^7.1.1"
     get-port-please "^3.0.1"
     jiti "^1.18.2"
     ofetch "^1.0.1"
     pathe "^1.1.0"
+    ufo "^1.1.1"
 
 "@nuxt/ui-templates@^1.1.1":
   version "1.1.1"
