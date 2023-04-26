@@ -6115,18 +6115,18 @@ kind-of@^6.0.3:
   resolved "https://registry.npmjs.org/kind-of/-/kind-of-6.0.3.tgz#07c05034a6c349fa06e24fa35aa76db4580ce4dd"
   integrity sha512-dcS1ul+9tmeD95T+x28/ehLgd9mENa3LsvDTtzm3vyBEO7RPptvAD+t44WVXaUjTBRcrpFeFlC8WCruUR456hw==
 
-kitsu-core@^10.1.0:
-  version "10.1.0"
-  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-10.1.0.tgz#c34c07252f995a9f0eaa31a2c53590ead72d3b2b"
-  integrity sha512-7Lyw7fWxrf08GRtkAOohl+31qI51708zqmp+WfsNf0R8NAEqcoshhNV9wyAs8+s66JrPMz5XO8XJcC7/EBWltg==
+kitsu-core@^10.1.1:
+  version "10.1.1"
+  resolved "https://registry.npmjs.org/kitsu-core/-/kitsu-core-10.1.1.tgz#362f9b09d4f946cfcfdb32beed3bc2e1dcd2c4c2"
+  integrity sha512-NSSbHSXWF9JFZbsQ53qMVgRpioZa8NhfzTovYkDGDtZaNi0FtS6YbRvDq3nhS3LK4/hVsXikSIIeIdgqJm4lRQ==
 
 kitsu@^10.0.4:
-  version "10.1.0"
-  resolved "https://registry.npmjs.org/kitsu/-/kitsu-10.1.0.tgz#a2e025f7d3d2986f04f7f2e13b12d6b14aa70fed"
-  integrity sha512-QpTbk3eEr1y9vWyJGmi3iKpqEnO3YD2juXlYGSAMqF/U40Rb//YhFx66j8/YjsUOVljYBIuK768+wts8z+a3Jg==
+  version "10.1.1"
+  resolved "https://registry.npmjs.org/kitsu/-/kitsu-10.1.1.tgz#745cca9b49a574b4ae6ae4a6790103d8a4b92efb"
+  integrity sha512-mcxFcO9kTGGtK16F/hjVbhFA0lCFh6iQpVEEk0IbST4Wi+Hc0uuohZ9xUNTn063uDWVQ8MzNE1wH6Ibqjoj0Dg==
   dependencies:
     axios "^0.27.0"
-    kitsu-core "^10.1.0"
+    kitsu-core "^10.1.1"
     pluralize "^8.0.0"
 
 klona@^2.0.6:
