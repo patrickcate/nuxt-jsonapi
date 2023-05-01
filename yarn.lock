@@ -1372,10 +1372,25 @@
     unimport "^3.0.4"
     untyped "^1.3.2"
 
-"@nuxt/schema@3.4.2", "@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.4.2":
   version "3.4.2"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.4.2.tgz#1cdafdc3246027bb9964c2ccb172003213c4d989"
   integrity sha512-DXB/fyjrAssFt9KGXyS+ZSfm1A0NYKhEoc01wyz1lGo//oETzUh3MmwE6X3x65NPqDlYZ6Mnj+IdftRRophv5Q==
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.2"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.2"
+    ufo "^1.1.1"
+    unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/schema@^3.0.0":
+  version "3.4.3"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.4.3.tgz#106548003b7bbc40428b2af290b31b1e89acffc5"
+  integrity sha512-8bv0/mRDw6THQguSz+cKG5FzDZc2XBkjcc5VZ7yET84r4aWzW9/R274cjlEagFKrw9BDaPEQhnkwpg+kZnpOUA==
   dependencies:
     defu "^6.1.2"
     hookable "^5.5.3"
