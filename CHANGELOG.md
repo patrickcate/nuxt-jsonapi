@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.2](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.1...v2.0.2) (2023-05-13)
+
+
+### Bug Fixes
+
+* switch to `useRuntimeConfig` composable in plugin ([aaaa83d](https://github.com/patrickcate/nuxt-jsonapi/commit/aaaa83d107a81ffcffb0af25ea736e7b569546a4)), closes [#247](https://github.com/patrickcate/nuxt-jsonapi/issues/247)
+
 ## [2.0.1](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.0...v2.0.1) (2023-02-04)
 
 
