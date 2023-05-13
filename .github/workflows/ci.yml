@@ -31,8 +31,8 @@ jobs:
       - name: Install dependencies
         run: yarn install --frozen-lockfile
 
-      - name: Setup playground
-        run: yarn dev:prepare
+      - name: Build playground
+        run: yarn build:playground
 
       - name: Lint
         run: yarn lint

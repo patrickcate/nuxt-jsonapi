@@ -6,12 +6,6 @@ import { describe, expect, it } from 'vitest'
 describe('nuxt json:api module', async () => {
   await setup({
     rootDir: fileURLToPath(new URL('../playground', import.meta.url)),
-    dev: true,
-    nuxtConfig: {
-      jsonApi: {
-        baseURL: 'http://localhost:9999/jsonapi',
-      },
-    },
   })
 
   it('should render api response', async () => {
