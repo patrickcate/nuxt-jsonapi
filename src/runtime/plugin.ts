@@ -1,8 +1,8 @@
 import Kitsu from 'kitsu'
-import { defineNuxtPlugin } from '#app'
+import { defineNuxtPlugin, useRuntimeConfig } from '#app'
 
 export default defineNuxtPlugin(nuxtApp => {
-  const { jsonApi: options } = nuxtApp.payload.config.public
+  const { jsonApi: options } = useRuntimeConfig().public
 
   const jsonApi = new Kitsu(options)
 
