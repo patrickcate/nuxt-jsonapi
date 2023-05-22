@@ -924,30 +924,6 @@
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.2.tgz#5749f04df13bda4c863338d8dabaf370f45ef7c7"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/kit@3.4.3":
-  version "3.4.3"
-  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.4.3.tgz#2ab6efb0a4db7b4e5f4d8d7d7e696fa30a6e8771"
-  integrity sha512-aQyzplYFCL292UsVZzlOZOC51ZKYFL0PBihbcPzxTzXQvAfMF8/DQ539kqzqXzxTCcmnUB9ROhIaNUrAeUkFYA==
-  dependencies:
-    "@nuxt/schema" "3.4.3"
-    c12 "^1.4.1"
-    consola "^3.1.0"
-    defu "^6.1.2"
-    globby "^13.1.4"
-    hash-sum "^2.0.0"
-    ignore "^5.2.4"
-    jiti "^1.18.2"
-    knitwork "^1.0.0"
-    lodash.template "^4.5.0"
-    mlly "^1.2.0"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    scule "^1.0.0"
-    semver "^7.5.0"
-    unctx "^2.3.0"
-    unimport "^3.0.6"
-    untyped "^1.3.2"
-
 "@nuxt/kit@3.5.0", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.3.3":
   version "3.5.0"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.5.0.tgz#ae8d8a64936714b3603230a2861539f95dbd218e"
@@ -983,22 +959,7 @@
     pathe "^1.1.0"
     unbuild "^1.2.1"
 
-"@nuxt/schema@3.4.3":
-  version "3.4.3"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.4.3.tgz#106548003b7bbc40428b2af290b31b1e89acffc5"
-  integrity sha512-8bv0/mRDw6THQguSz+cKG5FzDZc2XBkjcc5VZ7yET84r4aWzW9/R274cjlEagFKrw9BDaPEQhnkwpg+kZnpOUA==
-  dependencies:
-    defu "^6.1.2"
-    hookable "^5.5.3"
-    pathe "^1.1.0"
-    pkg-types "^1.0.2"
-    postcss-import-resolver "^2.0.0"
-    std-env "^3.3.2"
-    ufo "^1.1.1"
-    unimport "^3.0.6"
-    untyped "^1.3.2"
-
-"@nuxt/schema@3.5.0", "@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.5.0":
   version "3.5.0"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.5.0.tgz#53ec59ea85c30813dc692fc5a6d0075eedc9dce6"
   integrity sha512-zz7S5RTCTGSCAyfNxO0R+TYvgk7WQdHUWJiAiTFQ+iFtqQkb/re1I86Ba9VKTJjZmm3fUI5kT5Y62emJcOLlXw==
@@ -1011,6 +972,21 @@
     std-env "^3.3.3"
     ufo "^1.1.2"
     unimport "^3.0.6"
+    untyped "^1.3.2"
+
+"@nuxt/schema@^3.0.0":
+  version "3.5.1"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.5.1.tgz#33ae4b8689633be4ed69c03226035848cdd2cf0a"
+  integrity sha512-+TcJRT/Xm8IxpOwUWu9/7yoepPinITuQ0mkn/CThMuTt7z7N2LseqXOwSvONkI3bX+36VHFD2FFB8b3ABmwW2A==
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.3"
+    ufo "^1.1.2"
+    unimport "^3.0.7"
     untyped "^1.3.2"
 
 "@nuxt/telemetry@^2.2.0":
@@ -9263,19 +9239,19 @@ unhead@1.1.26:
     "@unhead/shared" "1.1.26"
     hookable "^5.5.3"
 
-unimport@^3.0.6:
-  version "3.0.6"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-3.0.6.tgz#20caac4cf9a94e9233cdbe3a16f7599ae75a7df8"
-  integrity sha512-GYxGJ1Bri1oqx8VFDjdgooGzeK7jBk3bvhXmamTIpu3nONOcUMGwZbX7X0L5RA7OWMXpR4vzpSQP7pXUzJg1/Q==
+unimport@^3.0.6, unimport@^3.0.7:
+  version "3.0.7"
+  resolved "https://registry.npmjs.org/unimport/-/unimport-3.0.7.tgz#9453fc2a0b816240490d2829279547754c7ea147"
+  integrity sha512-2dVQUxJEGcrSZ0U4qtwJVODrlfyGcwmIOoHVqbAFFUx7kPoEN5JWr1cZFhLwoAwTmZOvqAm3YIkzv1engIQocg==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.2.12"
     local-pkg "^0.4.3"
     magic-string "^0.30.0"
-    mlly "^1.2.0"
+    mlly "^1.2.1"
     pathe "^1.1.0"
-    pkg-types "^1.0.2"
+    pkg-types "^1.0.3"
     scule "^1.0.0"
     strip-literal "^1.0.1"
     unplugin "^1.3.1"
