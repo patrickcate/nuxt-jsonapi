@@ -959,10 +959,25 @@
     pathe "^1.1.0"
     unbuild "^1.2.1"
 
-"@nuxt/schema@3.5.1", "@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.5.1":
   version "3.5.1"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.5.1.tgz#33ae4b8689633be4ed69c03226035848cdd2cf0a"
   integrity sha512-+TcJRT/Xm8IxpOwUWu9/7yoepPinITuQ0mkn/CThMuTt7z7N2LseqXOwSvONkI3bX+36VHFD2FFB8b3ABmwW2A==
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.0"
+    pkg-types "^1.0.3"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.3"
+    ufo "^1.1.2"
+    unimport "^3.0.7"
+    untyped "^1.3.2"
+
+"@nuxt/schema@^3.0.0":
+  version "3.5.2"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.5.2.tgz#9d86d63fd3e121d2255d6f893dd33159636d7084"
+  integrity sha512-7u7NZ1TgSdjdOkLaFhv8iP+Lr9whqemMuLDALpnR+HJGC/Mm8ep+yECgCwIT/h1bM/nogZyGWO0xjOIdtzqlUA==
   dependencies:
     defu "^6.1.2"
     hookable "^5.5.3"
