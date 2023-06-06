@@ -948,7 +948,7 @@
     unimport "^3.0.7"
     untyped "^1.3.2"
 
-"@nuxt/kit@^3.0.0", "@nuxt/kit@^3.3.3":
+"@nuxt/kit@3.5.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.3.3":
   version "3.5.3"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.5.3.tgz#879d556142febcc8250aff857e75bb8d87daedbb"
   integrity sha512-QzoOGqa1zjKQfg7Y50TrrFAL9DhtIpYYs10gihcM1ISPrn9ROht+VEjqsaMvT+L8JuQbNf8wDYl8qzsdWGU29Q==
@@ -1039,18 +1039,18 @@
     std-env "^3.3.2"
 
 "@nuxt/test-utils@^3.0.0":
-  version "3.5.2"
-  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.5.2.tgz#a3409f6ca63b28afe2137a2d79aab95866c61d5f"
-  integrity sha512-b/5ZkN4Rymjt+VbKbxT0fdt9LlkEVArzy5uL7uGOLQ8LAh3tY9d23YRFgSDJSvKUkyzR2pXnIVP42auNdRiV4g==
+  version "3.5.3"
+  resolved "https://registry.npmjs.org/@nuxt/test-utils/-/test-utils-3.5.3.tgz#8aa1ff97c35ea3d314e7b08027e3fccef0f10197"
+  integrity sha512-ujkOrn3Qvd+6TREsg4h6Vm1YbPgwl70qh9s6jQiEIGhaH9wqXUUgbHEdWelUMeRO+jbV1X4rtd7Sdww/rfR5lA==
   dependencies:
-    "@nuxt/kit" "3.5.2"
-    "@nuxt/schema" "3.5.2"
+    "@nuxt/kit" "3.5.3"
+    "@nuxt/schema" "3.5.3"
     consola "^3.1.0"
     defu "^6.1.2"
     execa "^7.1.1"
     get-port-please "^3.0.1"
     ofetch "^1.0.1"
-    pathe "^1.1.0"
+    pathe "^1.1.1"
     ufo "^1.1.2"
 
 "@nuxt/ui-templates@^1.1.1":
