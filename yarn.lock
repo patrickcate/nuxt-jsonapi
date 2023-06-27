@@ -974,9 +974,9 @@
     untyped "^1.3.2"
 
 "@nuxt/schema@^3.0.0":
-  version "3.6.0"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.0.tgz#2bd7f98e83559719ece128686f5e97b7d69e67ef"
-  integrity sha512-6/nq+W77JODDfhMBZTi7HCD3hT5oHegsasAzUnDmvwWuY1io7BXX9x2mDhL8E3LhVzQuN5vhi3GBgwHwCfdKEA==
+  version "3.6.1"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.1.tgz#aadeeede96b00ea3f5a019bfb8f5fb80e5b7c6a3"
+  integrity sha512-+4pr0lkcPP5QqprYV+/ujmBkt2JHmi/v5vaxCrMhElUFgifvJAfT89BkGFn6W7pz0b8Vd3GcByFUWI7/wX/Pcw==
   dependencies:
     defu "^6.1.2"
     hookable "^5.5.3"
@@ -985,7 +985,7 @@
     postcss-import-resolver "^2.0.0"
     std-env "^3.3.3"
     ufo "^1.1.2"
-    unimport "^3.0.8"
+    unimport "^3.0.10"
     untyped "^1.3.2"
 
 "@nuxt/telemetry@^2.2.0":
@@ -1912,6 +1912,11 @@ acorn@^8.4.1, acorn@^8.5.0, acorn@^8.6.0, acorn@^8.8.0, acorn@^8.8.1, acorn@^8.8
   version "8.8.2"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.8.2.tgz#1b2f25db02af965399b9776b0c2c391276d37c4a"
   integrity sha512-xjIYgE8HBrkpd/sJqOGNspf8uHG+NOHGOw6a/Urj8taM2EXfdNAH2oFcPeIFfsv3+kz/mJrS5VuMqbNLjCa2vw==
+
+acorn@^8.9.0:
+  version "8.9.0"
+  resolved "https://registry.npmjs.org/acorn/-/acorn-8.9.0.tgz#78a16e3b2bcc198c10822786fa6679e245db5b59"
+  integrity sha512-jaVNAFBHNLXspO543WnNNPZFRtavh3skAkITqD0/2aeMkKZTN+254PyhwxFYrk3vQ1xfY+2wbesJMs/JC8/PwQ==
 
 agent-base@6, agent-base@^6.0.2:
   version "6.0.2"
@@ -6438,6 +6443,16 @@ mlly@^1.0.0, mlly@^1.2.0, mlly@^1.2.1, mlly@^1.3.0:
     pkg-types "^1.0.3"
     ufo "^1.1.2"
 
+mlly@^1.4.0:
+  version "1.4.0"
+  resolved "https://registry.npmjs.org/mlly/-/mlly-1.4.0.tgz#830c10d63f1f97bd8785377b24dc2a15d972832b"
+  integrity sha512-ua8PAThnTwpprIaU47EPeZ/bPUVp2QYBbWMphUQpVdBI3Lgqzm5KZQ45Agm3YJedHXaIHl6pBGabaLSUPPSptg==
+  dependencies:
+    acorn "^8.9.0"
+    pathe "^1.1.1"
+    pkg-types "^1.0.3"
+    ufo "^1.1.2"
+
 modify-values@^1.0.0:
   version "1.0.1"
   resolved "https://registry.npmjs.org/modify-values/-/modify-values-1.0.1.tgz#b3939fa605546474e3e3e3c63d64bd43b4ee6022"
@@ -9301,17 +9316,17 @@ unhead@1.1.27:
     "@unhead/shared" "1.1.27"
     hookable "^5.5.3"
 
-unimport@^3.0.6, unimport@^3.0.7, unimport@^3.0.8:
-  version "3.0.8"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-3.0.8.tgz#f77faa0468f3390844899040849c051570736e3f"
-  integrity sha512-AOt6xj3QMwqcTZRPB+NhFkyVEjCKnpTVoPm5x6424zz2NYYtCfym2bpJofzPHIJKPNIh5ko2/t2q46ZIMgdmbw==
+unimport@^3.0.10, unimport@^3.0.6, unimport@^3.0.7:
+  version "3.0.10"
+  resolved "https://registry.npmjs.org/unimport/-/unimport-3.0.10.tgz#cc58b1a8bc14556cb89c5a3006fe2c6bdd666f6c"
+  integrity sha512-rKxlbbjxVQR+6dL7OxJSuVOu96MtTvoRY0VBasGQTgZGTzKPrawZ4zMv7bmhLHRmUqG/CUAJ4uNZlaip+F/6+A==
   dependencies:
     "@rollup/pluginutils" "^5.0.2"
     escape-string-regexp "^5.0.0"
     fast-glob "^3.2.12"
     local-pkg "^0.4.3"
     magic-string "^0.30.0"
-    mlly "^1.3.0"
+    mlly "^1.4.0"
     pathe "^1.1.1"
     pkg-types "^1.0.3"
     scule "^1.0.0"
