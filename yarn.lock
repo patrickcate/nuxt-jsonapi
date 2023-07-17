@@ -979,9 +979,9 @@
     untyped "^1.3.2"
 
 "@nuxt/schema@^3.0.0":
-  version "3.6.2"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.2.tgz#762b2af9b23c0d5bfec5ef4dc00af05ba80f561e"
-  integrity sha512-wxb1/C5ozly5IwX0IRjVGml1n2KjZrTKsf6lTk3fdjUpW105kAvYX4j66PDOdBRE4vCwCsgaHJfWpUSeNBxbuA==
+  version "3.6.3"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.3.tgz#47afda4b0778535c189e81e0fc7c36e1984e060c"
+  integrity sha512-ZkcDt1DbgKX4Zv6Y+uLdn4Zt2WUDsZy+cuVx9XTRPoGVaG9PXZEgQr1XYoVH1vBMH/8VgDApvjok/Vzo+x+Nrg==
   dependencies:
     defu "^6.1.2"
     hookable "^5.5.3"
