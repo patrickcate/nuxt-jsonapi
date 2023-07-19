@@ -1052,12 +1052,35 @@
   resolved "https://registry.npmjs.org/@nuxt/devalue/-/devalue-2.0.2.tgz#5749f04df13bda4c863338d8dabaf370f45ef7c7"
   integrity sha512-GBzP8zOc7CGWyFQS6dv1lQz8VVpz5C2yRszbXufwG/9zhStTIH50EtD87NmWbTMwXDvZLNg8GIpb1UFdH93JCA==
 
-"@nuxt/kit@3.6.3", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.6.1":
+"@nuxt/kit@3.6.3":
   version "3.6.3"
   resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.6.3.tgz#bed7adba36f5027b6e79f5ea32400e621f19cfea"
   integrity sha512-Eq+2whSIsZ+2IdB9J3okYOc+nZHassjt13vJZowxO3dw0rsXTnWGFHx40IX+wrBYE6eiOHjU/cXQ1XHdiU2GyQ==
   dependencies:
     "@nuxt/schema" "3.6.3"
+    c12 "^1.4.2"
+    consola "^3.2.3"
+    defu "^6.1.2"
+    globby "^13.2.2"
+    hash-sum "^2.0.0"
+    ignore "^5.2.4"
+    jiti "^1.19.1"
+    knitwork "^1.0.0"
+    mlly "^1.4.0"
+    pathe "^1.1.1"
+    pkg-types "^1.0.3"
+    scule "^1.0.0"
+    semver "^7.5.3"
+    unctx "^2.3.1"
+    unimport "^3.0.14"
+    untyped "^1.3.2"
+
+"@nuxt/kit@3.6.4", "@nuxt/kit@^3.0.0", "@nuxt/kit@^3.6.1":
+  version "3.6.4"
+  resolved "https://registry.npmjs.org/@nuxt/kit/-/kit-3.6.4.tgz#68ce935385f4fed0de4d757e973a91aaf9bf7ea9"
+  integrity sha512-srQtbItceteVzX9o0RaFHqQN3uMIZkkikJW55MKCXs1xKstvsI1pzTb1T2WR5v7G1ofBIF+j4EvjweocUUqiQQ==
+  dependencies:
+    "@nuxt/schema" "3.6.4"
     c12 "^1.4.2"
     consola "^3.2.3"
     defu "^6.1.2"
@@ -1086,10 +1109,25 @@
     pathe "^1.1.0"
     unbuild "^1.2.1"
 
-"@nuxt/schema@3.6.3", "@nuxt/schema@^3.0.0":
+"@nuxt/schema@3.6.3":
   version "3.6.3"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.3.tgz#47afda4b0778535c189e81e0fc7c36e1984e060c"
   integrity sha512-ZkcDt1DbgKX4Zv6Y+uLdn4Zt2WUDsZy+cuVx9XTRPoGVaG9PXZEgQr1XYoVH1vBMH/8VgDApvjok/Vzo+x+Nrg==
+  dependencies:
+    defu "^6.1.2"
+    hookable "^5.5.3"
+    pathe "^1.1.1"
+    pkg-types "^1.0.3"
+    postcss-import-resolver "^2.0.0"
+    std-env "^3.3.3"
+    ufo "^1.1.2"
+    unimport "^3.0.14"
+    untyped "^1.3.2"
+
+"@nuxt/schema@3.6.4", "@nuxt/schema@^3.0.0":
+  version "3.6.4"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.6.4.tgz#d0e92287842e3bf402c2e28fe69f664346c2fa6d"
+  integrity sha512-ipVMYc4hfzwpi781uInaKcW20CJi9revxs/cxD2SvZ8Lg6WsNNjiljad90ds935CdPjj+q/YI+L7hm7yJKV76A==
   dependencies:
     defu "^6.1.2"
     hookable "^5.5.3"
@@ -1146,12 +1184,12 @@
   resolved "https://registry.npmjs.org/@nuxt/ui-templates/-/ui-templates-1.2.0.tgz#0b8703c41a23e37af17800553c9f4a9a6cf11226"
   integrity sha512-MSZza7dxccNb/p7nuzGF8/m4POaFpHzVhNdR7f4xahOpH7Ja02lFeYR+rHtoHIJC0yym4qriqv0mQ+Qf/R61bQ==
 
-"@nuxt/vite-builder@3.6.3":
-  version "3.6.3"
-  resolved "https://registry.npmjs.org/@nuxt/vite-builder/-/vite-builder-3.6.3.tgz#cdf4aee29f197129a35ec4384bff84688ebe6f80"
-  integrity sha512-VWxuZ/GKp3IYMSW34yl+K8rEiDjb6gFt2avU1y9oNjkW/ONBLtBP5P7SFVtlzqs3Oxlk9zWAQc8D1dubBC3fEQ==
+"@nuxt/vite-builder@3.6.4":
+  version "3.6.4"
+  resolved "https://registry.npmjs.org/@nuxt/vite-builder/-/vite-builder-3.6.4.tgz#c94e455def6e332405f157efc37d5de3ccd500ba"
+  integrity sha512-6gEo1V/2k1PPdfj7lMLD5uwAk3KPZRSRyl5pTOkTinVTmBetaZ9yZsrqC6esUc9St9OAJx+8Q7kHbV42A523VA==
   dependencies:
-    "@nuxt/kit" "3.6.3"
+    "@nuxt/kit" "3.6.4"
     "@rollup/plugin-replace" "^5.0.2"
     "@vitejs/plugin-vue" "^4.2.3"
     "@vitejs/plugin-vue-jsx" "^3.0.1"
@@ -7156,24 +7194,24 @@ nth-check@^2.0.1:
   dependencies:
     boolbase "^1.0.0"
 
-nuxi@3.6.3:
-  version "3.6.3"
-  resolved "https://registry.npmjs.org/nuxi/-/nuxi-3.6.3.tgz#1cd8acb5d69f20c997f8241349adee963b1b9ac8"
-  integrity sha512-UVokD+9Pq0EoPp2nmkS5K96g/P1BWYEpYCmtX4XW5oZqvkPlEBBdellOWPEb9wgSCBjWYVNpxA2uIRb4yhg1Nw==
+nuxi@3.6.4:
+  version "3.6.4"
+  resolved "https://registry.npmjs.org/nuxi/-/nuxi-3.6.4.tgz#2d0d317b21a20526007cad92e56f06873489fba0"
+  integrity sha512-Bd8scRiNEsBJ+gVumqClZjWTuj+CAMxKFKzrmD76uzGuJBdzK+rxAhRqgB+xby9wv7ONT1mb14an4EmumwpVbg==
   optionalDependencies:
     fsevents "~2.3.2"
 
 nuxt@^3.6.3:
-  version "3.6.3"
-  resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.6.3.tgz#d3f093b4fa67106229ee83c014c154de072d38f6"
-  integrity sha512-FiD2Ok81wPvQjNBO61h1fA7aqL0EloNspDC05eoQZl13kCthn7103esJNS+KAZNlPcXOYruEe3rGt066Sb/TwA==
+  version "3.6.4"
+  resolved "https://registry.npmjs.org/nuxt/-/nuxt-3.6.4.tgz#7a20f1a6b3c55914507411ff8ce9026b17d3f829"
+  integrity sha512-FmI3UJ/0Ak8UyfF7UPtAJFf+R4HV0jgffCMVy0+deja15ymMA4Z9ySkCNBMJ6DaXP3kofWT6UeRmJLhgatQHSg==
   dependencies:
     "@nuxt/devalue" "^2.0.2"
-    "@nuxt/kit" "3.6.3"
-    "@nuxt/schema" "3.6.3"
+    "@nuxt/kit" "3.6.4"
+    "@nuxt/schema" "3.6.4"
     "@nuxt/telemetry" "^2.3.0"
     "@nuxt/ui-templates" "^1.2.0"
-    "@nuxt/vite-builder" "3.6.3"
+    "@nuxt/vite-builder" "3.6.4"
     "@unhead/ssr" "^1.1.30"
     "@unhead/vue" "^1.1.30"
     "@vue/shared" "^3.3.4"
@@ -7198,7 +7236,7 @@ nuxt@^3.6.3:
     magic-string "^0.30.1"
     mlly "^1.4.0"
     nitropack "^2.5.2"
-    nuxi "3.6.3"
+    nuxi "3.6.4"
     nypm "^0.2.2"
     ofetch "^1.1.1"
     ohash "^1.1.2"
