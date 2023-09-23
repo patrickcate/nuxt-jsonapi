@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.3](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.2...v2.0.3) (2023-09-23)
+
+
+### Bug Fixes
+
+* explicitly add imported kitsu types to plugin ([1b809d9](https://github.com/patrickcate/nuxt-jsonapi/commit/1b809d9b984573ff134f544f73095b9b8d6e561e))
+
 ## [2.0.2](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.1...v2.0.2) (2023-05-13)
 
 
