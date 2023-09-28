@@ -1094,13 +1094,13 @@
     untyped "^1.4.0"
 
 "@nuxt/module-builder@^0.5.1":
-  version "0.5.1"
-  resolved "https://registry.npmjs.org/@nuxt/module-builder/-/module-builder-0.5.1.tgz#bb619c561433fd258bd98c5d0950a5da2e03f2b5"
-  integrity sha512-O39UrOFbNgL27urwDqeMgXeYiNIUvp73nsmtt7jm9JDcMVIWykuUzyBPYtHif7gq5ElzIjjmDw9zdRGgyMzo+w==
+  version "0.5.2"
+  resolved "https://registry.npmjs.org/@nuxt/module-builder/-/module-builder-0.5.2.tgz#4951014b6a72cfc930dc7663067ba2cfa6f0ca1c"
+  integrity sha512-MsnPTsa94VNrzV76RKCDS0C96uaKw9s3EbTtabI/BkAXOD4Ud1w6m0O20XUdI9tmRtE8Kbgyr4XUhD/YB3eeAw==
   dependencies:
+    citty "^0.1.4"
     consola "^3.2.3"
-    mlly "^1.4.1"
-    mri "^1.2.0"
+    mlly "^1.4.2"
     pathe "^1.1.1"
     unbuild "^2.0.0"
 
