@@ -1,6 +1,7 @@
 import Kitsu from 'kitsu'
 import type KitsuTypes from 'kitsu'
-import { defineNuxtPlugin, useRuntimeConfig, Plugin } from '#app'
+import { defineNuxtPlugin, useRuntimeConfig } from '#app'
+import type { Plugin } from '#app'
 
 const plugin: Plugin<{ jsonApi: KitsuTypes }> = defineNuxtPlugin(nuxtApp => {
   const { jsonApi: options } = useRuntimeConfig().public
