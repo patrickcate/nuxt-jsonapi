@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.0.4](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.3...v2.0.4) (2023-10-29)
+
+
+### Bug Fixes
+
+* switch to separate type import for plugin ([f86808c](https://github.com/patrickcate/nuxt-jsonapi/commit/f86808c4bd9d11506f75a80ccfad916a9521e131))
+
 ## [2.0.3](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.2...v2.0.3) (2023-09-23)
 
 
