@@ -1345,9 +1345,9 @@
     untyped "^1.4.0"
 
 "@nuxt/schema@^3.0.0", "@nuxt/schema@^3.7.4":
-  version "3.8.2"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.8.2.tgz#6eab0cc6152b921f3fe101b65e341e05c6c36864"
-  integrity sha512-AMpysQ/wHK2sOujLShqYdC4OSj/S3fFJGjhYXqA2g6dgmz+FNQWJRG/ie5sI9r2EX9Ela1wt0GN1jZR3wYNE8Q==
+  version "3.9.0"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.0.tgz#4eb52c8c8f10ae7195a2fa75bf4c90445418554e"
+  integrity sha512-NaRiq+g6XE4YOZLy7be2e6AmZCW0gfQWDM88TSfNr3Lypo+6PuY2VqzZLpSvOCNlW3CFj/kWtMdhool2BP0yIg==
   dependencies:
     "@nuxt/ui-templates" "^1.3.1"
     consola "^3.2.3"
@@ -1355,10 +1355,10 @@
     hookable "^5.5.3"
     pathe "^1.1.1"
     pkg-types "^1.0.3"
-    scule "^1.1.0"
-    std-env "^3.5.0"
+    scule "^1.1.1"
+    std-env "^3.7.0"
     ufo "^1.3.2"
-    unimport "^3.5.0"
+    unimport "^3.7.0"
     untyped "^1.4.0"
 
 "@nuxt/telemetry@^2.5.2":
@@ -1781,6 +1781,15 @@
   version "5.0.5"
   resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.0.5.tgz#bbb4c175e19ebfeeb8c132c2eea0ecb89941a66c"
   integrity sha512-6aEYR910NyP73oHiJglti74iRyOwgFU4x3meH/H8OJx6Ry0j6cOVZ5X/wTvub7G7Ao6qaHBEaNsV3GLJkSsF+Q==
+  dependencies:
+    "@types/estree" "^1.0.0"
+    estree-walker "^2.0.2"
+    picomatch "^2.3.1"
+
+"@rollup/pluginutils@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.npmjs.org/@rollup/pluginutils/-/pluginutils-5.1.0.tgz#7e53eddc8c7f483a4ad0b94afb1f7f5fd3c771e0"
+  integrity sha512-XTIWOPPcpvyKI6L1NHo0lFlCyznUEyPmPY1mc3KpPVDYulHSTvyeLNVW00QTLIAFNhR3kYnJTQHeGqU4M3n09g==
   dependencies:
     "@types/estree" "^1.0.0"
     estree-walker "^2.0.2"
@@ -2505,7 +2514,7 @@ acorn-walk@^8.1.1, acorn-walk@^8.2.0:
   resolved "https://registry.npmjs.org/acorn-walk/-/acorn-walk-8.3.0.tgz#2097665af50fd0cf7a2dfccd2b9368964e66540f"
   integrity sha512-FS7hV565M5l1R08MXqo8odwMTB02C2UqzB17RVgu9EyuYFBqJZ3/ZY97sQD5FewVu1UyDFc1yztUDrAwT0EypA==
 
-acorn@8.11.2, acorn@^8.10.0, acorn@^8.4.1, acorn@^8.6.0, acorn@^8.8.2, acorn@^8.9.0:
+acorn@8.11.2, acorn@^8.10.0, acorn@^8.11.2, acorn@^8.4.1, acorn@^8.6.0, acorn@^8.8.2, acorn@^8.9.0:
   version "8.11.2"
   resolved "https://registry.npmjs.org/acorn/-/acorn-8.11.2.tgz#ca0d78b51895be5390a5903c5b3bdcdaf78ae40b"
   integrity sha512-nc0Axzp/0FILLEVsm4fNwLCwMttvhEI263QtVPQcbpfZZ3ts0hLsZGOpE6czNlid7CJ9MlyH8reXkpsf3YUY4w==
@@ -9259,10 +9268,10 @@ safe-regex@^2.1.1:
   resolved "https://registry.npmjs.org/safer-buffer/-/safer-buffer-2.1.2.tgz#44fa161b0187b9549dd84bb91802f9bd8385cd6a"
   integrity sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
 
-scule@^1.0.0, scule@^1.1.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/scule/-/scule-1.1.0.tgz#cbc109256b4aa59fc8074151284cb8cb103531eb"
-  integrity sha512-vRUjqhyM/YWYzT+jsMk6tnl3NkY4A4soJ8uyh3O6Um+JXEQL9ozUCe7pqrxn3CSKokw0hw3nFStfskzpgYwR0g==
+scule@^1.0.0, scule@^1.1.1:
+  version "1.1.1"
+  resolved "https://registry.npmjs.org/scule/-/scule-1.1.1.tgz#82b4d13bb8c729c15849256e749cee0cb52a4d89"
+  integrity sha512-sHtm/SsIK9BUBI3EFT/Gnp9VoKfY6QLvlkvAE6YK7454IF8FSgJEAnJpVdSC7K5/pjI5NfxhzBLW2JAfYA/shQ==
 
 semantic-release@^19.0.5:
   version "19.0.5"
@@ -9652,10 +9661,10 @@ statuses@2.0.1:
   resolved "https://registry.npmjs.org/statuses/-/statuses-2.0.1.tgz#55cb000ccf1d48728bd23c685a063998cf1a1b63"
   integrity sha512-RwNA9Z/7PrK06rYLIzFMlaF+l73iwpzsqRIFgbMLbTcLD6cOao82TaWefPXQvB2fOC4AjuYSEndS7N/mTCbkdQ==
 
-std-env@^3.3.3, std-env@^3.4.3, std-env@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/std-env/-/std-env-3.5.0.tgz#83010c9e29bd99bf6f605df87c19012d82d63b97"
-  integrity sha512-JGUEaALvL0Mf6JCfYnJOTcobY+Nc7sG/TemDRBqCA0wEr4DER7zDchaaixTlmOxAjG1uRJmX82EQcxwTQTkqVA==
+std-env@^3.3.3, std-env@^3.4.3, std-env@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.npmjs.org/std-env/-/std-env-3.7.0.tgz#c9f7386ced6ecf13360b6c6c55b8aaa4ef7481d2"
+  integrity sha512-JPbdCEQLj1w5GilpiHAx3qJvFndqybBysA3qUOnznweH4QbNYUsW/ea8QzSrnh0vNsezMMw5bcVool8lM0gwzg==
 
 stream-combiner2@~1.1.1:
   version "1.1.1"
@@ -10341,22 +10350,24 @@ unhead@1.8.3:
     "@unhead/shared" "1.8.3"
     hookable "^5.5.3"
 
-unimport@^3.4.0, unimport@^3.5.0:
-  version "3.5.0"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-3.5.0.tgz#79ac4a8f803bbec0f6fa0c19e2f4e9dbd5a7b14f"
-  integrity sha512-0Ei1iTeSYxs7oxxUf79/KaBc2dPjZxe7qdVpw7yIz5YcdTZjmBYO6ToLDW+fX9QOHiueZ3xtwb5Z/wqaSfXx6A==
+unimport@^3.4.0, unimport@^3.7.0:
+  version "3.7.0"
+  resolved "https://registry.npmjs.org/unimport/-/unimport-3.7.0.tgz#8c9bfe044c811a69f41de0c260c2efcba3e00c87"
+  integrity sha512-vesCVjU3CYk41UZNY10kwii7l77vcP4IxPbBMgpve+vean7g7zJWrcCqSoG7u0eB9LZ5bM5BP+3vr3W2uYk0Yg==
   dependencies:
-    "@rollup/pluginutils" "^5.0.5"
+    "@rollup/pluginutils" "^5.1.0"
+    acorn "^8.11.2"
     escape-string-regexp "^5.0.0"
+    estree-walker "^3.0.3"
     fast-glob "^3.3.2"
     local-pkg "^0.5.0"
     magic-string "^0.30.5"
     mlly "^1.4.2"
     pathe "^1.1.1"
     pkg-types "^1.0.3"
-    scule "^1.0.0"
+    scule "^1.1.1"
     strip-literal "^1.3.0"
-    unplugin "^1.5.0"
+    unplugin "^1.5.1"
 
 unique-filename@^2.0.0:
   version "2.0.1"
@@ -10436,6 +10447,16 @@ unplugin@^1.3.1, unplugin@^1.5.0:
     chokidar "^3.5.3"
     webpack-sources "^3.2.3"
     webpack-virtual-modules "^0.5.0"
+
+unplugin@^1.5.1:
+  version "1.5.1"
+  resolved "https://registry.npmjs.org/unplugin/-/unplugin-1.5.1.tgz#806688376fa3dcca4d2fa2c5d27cf6cd0370fbef"
+  integrity sha512-0QkvG13z6RD+1L1FoibQqnvTwVBXvS4XSPwAyinVgoOCl2jAgwzdUKmEj05o4Lt8xwQI85Hb6mSyYkcAGwZPew==
+  dependencies:
+    acorn "^8.11.2"
+    chokidar "^3.5.3"
+    webpack-sources "^3.2.3"
+    webpack-virtual-modules "^0.6.0"
 
 unstorage@^1.9.0:
   version "1.9.0"
@@ -10799,6 +10820,11 @@ webpack-virtual-modules@^0.5.0:
   version "0.5.0"
   resolved "https://registry.npmjs.org/webpack-virtual-modules/-/webpack-virtual-modules-0.5.0.tgz#362f14738a56dae107937ab98ea7062e8bdd3b6c"
   integrity sha512-kyDivFZ7ZM0BVOUteVbDFhlRt7Ah/CSPwJdi8hBpkK7QLumUqdLtVfm/PX/hkcnrvr0i77fO5+TjZ94Pe+C9iw==
+
+webpack-virtual-modules@^0.6.0:
+  version "0.6.1"
+  resolved "https://registry.npmjs.org/webpack-virtual-modules/-/webpack-virtual-modules-0.6.1.tgz#ac6fdb9c5adb8caecd82ec241c9631b7a3681b6f"
+  integrity sha512-poXpCylU7ExuvZK8z+On3kX+S8o/2dQ/SVYueKA0D4WEMXROXgY8Ez50/bQEUmvoSMMrWcrJqCHuhAbsiwg7Dg==
 
 whatwg-url@^5.0.0:
   version "5.0.0"
