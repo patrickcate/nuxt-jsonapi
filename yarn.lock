@@ -1345,20 +1345,20 @@
     untyped "^1.4.0"
 
 "@nuxt/schema@^3.0.0", "@nuxt/schema@^3.7.4":
-  version "3.9.0"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.0.tgz#4eb52c8c8f10ae7195a2fa75bf4c90445418554e"
-  integrity sha512-NaRiq+g6XE4YOZLy7be2e6AmZCW0gfQWDM88TSfNr3Lypo+6PuY2VqzZLpSvOCNlW3CFj/kWtMdhool2BP0yIg==
+  version "3.9.1"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.1.tgz#01b0beee83a7ac94e37d63107e7b733e6189904c"
+  integrity sha512-GmALRLYo2vPMS1lMpUkUrUuEgTMCL1ZWyqA+zPKJ9/Rh2rrQgIvFyClqUl4txQoCZl038njP5cW0nOe2Oe0HKg==
   dependencies:
     "@nuxt/ui-templates" "^1.3.1"
     consola "^3.2.3"
-    defu "^6.1.3"
+    defu "^6.1.4"
     hookable "^5.5.3"
     pathe "^1.1.1"
     pkg-types "^1.0.3"
     scule "^1.1.1"
     std-env "^3.7.0"
     ufo "^1.3.2"
-    unimport "^3.7.0"
+    unimport "^3.7.1"
     untyped "^1.4.0"
 
 "@nuxt/telemetry@^2.5.2":
@@ -4050,7 +4050,7 @@ define-properties@^1.1.3, define-properties@^1.1.4, define-properties@^1.2.0:
     has-property-descriptors "^1.0.0"
     object-keys "^1.1.1"
 
-defu@^6.0.0, defu@^6.1.1, defu@^6.1.2, defu@^6.1.3:
+defu@^6.0.0, defu@^6.1.1, defu@^6.1.2, defu@^6.1.3, defu@^6.1.4:
   version "6.1.4"
   resolved "https://registry.npmjs.org/defu/-/defu-6.1.4.tgz#4e0c9cf9ff68fe5f3d7f2765cc1a012dfdcb0479"
   integrity sha512-mEQCMmwJu317oSz8CwdIOdwf3xMif1ttiM8LTufzc3g6kR+9Pe236twL8j3IYT1F7GfRgGcW6MWxzZjLIkuHIg==
@@ -10350,10 +10350,10 @@ unhead@1.8.3:
     "@unhead/shared" "1.8.3"
     hookable "^5.5.3"
 
-unimport@^3.4.0, unimport@^3.7.0:
-  version "3.7.0"
-  resolved "https://registry.npmjs.org/unimport/-/unimport-3.7.0.tgz#8c9bfe044c811a69f41de0c260c2efcba3e00c87"
-  integrity sha512-vesCVjU3CYk41UZNY10kwii7l77vcP4IxPbBMgpve+vean7g7zJWrcCqSoG7u0eB9LZ5bM5BP+3vr3W2uYk0Yg==
+unimport@^3.4.0, unimport@^3.7.1:
+  version "3.7.1"
+  resolved "https://registry.npmjs.org/unimport/-/unimport-3.7.1.tgz#37250d0f3f2dcf1e1b66ed13728db0e9f50ba0c3"
+  integrity sha512-V9HpXYfsZye5bPPYUgs0Otn3ODS1mDUciaBlXljI4C2fTwfFpvFZRywmlOu943puN9sncxROMZhsZCjNXEpzEQ==
   dependencies:
     "@rollup/pluginutils" "^5.1.0"
     acorn "^8.11.2"
