@@ -1345,9 +1345,9 @@
     untyped "^1.4.0"
 
 "@nuxt/schema@^3.0.0", "@nuxt/schema@^3.7.4":
-  version "3.9.2"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.2.tgz#e3a0276c2b019c8a3e35b7df43746b3d7cb42aff"
-  integrity sha512-jLShtgQPBMH2ccRTv/l4wAik1L6cW7Y5H7txHDZXKR4nHAbNuhCdVPCKs8NP/8g8rhBulbH+xy8Lar5ff8ahOQ==
+  version "3.9.3"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.3.tgz#57ff39a8131b2ded735dfb4b03c2ef37a82196bf"
+  integrity sha512-pchkGBYdEJ9TAOoC5DKnLuAaFPjzgn2k0OUTr31QwbtHdTR3Q2Ua/oKsS1g9CPU7KRzSE5Vkf7ECE8zVydqF5A==
   dependencies:
     "@nuxt/ui-templates" "^1.3.1"
     consola "^3.2.3"
