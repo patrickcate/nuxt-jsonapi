@@ -38,12 +38,12 @@ export default defineNuxtModule<ModuleOptions>({
     )
 
     // Remove once Kitsu switches to Axios >= 1.0 which uses ESM modules.
-    /* c8 ignore start */
+    /* v8 ignore start */
     nuxt.options.vite.optimizeDeps = nuxt.options.vite.optimizeDeps || {}
     nuxt.options.vite.optimizeDeps.include =
       nuxt.options.vite.optimizeDeps.include || []
     nuxt.options.vite.optimizeDeps.include.push('axios', 'pluralize')
-    /* c8 ignore start */
+    /* v8 ignore end */
 
     const { resolve } = createResolver(import.meta.url)
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
