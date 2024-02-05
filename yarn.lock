@@ -1229,7 +1229,7 @@
     pathe "^1.1.1"
     unbuild "^2.0.0"
 
-"@nuxt/schema@3.9.3", "@nuxt/schema@^3.0.0", "@nuxt/schema@^3.9.1", "@nuxt/schema@^3.9.3":
+"@nuxt/schema@3.9.3":
   version "3.9.3"
   resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.9.3.tgz#57ff39a8131b2ded735dfb4b03c2ef37a82196bf"
   integrity sha512-pchkGBYdEJ9TAOoC5DKnLuAaFPjzgn2k0OUTr31QwbtHdTR3Q2Ua/oKsS1g9CPU7KRzSE5Vkf7ECE8zVydqF5A==
@@ -1245,6 +1245,23 @@
     ufo "^1.3.2"
     unimport "^3.7.1"
     untyped "^1.4.0"
+
+"@nuxt/schema@^3.0.0", "@nuxt/schema@^3.9.1", "@nuxt/schema@^3.9.3":
+  version "3.10.1"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.10.1.tgz#b7cb2d26d26922f028bbf91f4ff0aa9b69cd19ca"
+  integrity sha512-DyZLhbaaoGBCXO2jboCHTp77jbCIUem/va5iSu2+GO6M8vAHbNRphksw38gpSk/F74LbJDTbW0t3hrMBzU4B3g==
+  dependencies:
+    "@nuxt/ui-templates" "^1.3.1"
+    consola "^3.2.3"
+    defu "^6.1.4"
+    hookable "^5.5.3"
+    pathe "^1.1.2"
+    pkg-types "^1.0.3"
+    scule "^1.2.0"
+    std-env "^3.7.0"
+    ufo "^1.3.2"
+    unimport "^3.7.1"
+    untyped "^1.4.2"
 
 "@nuxt/telemetry@^2.5.3":
   version "2.5.3"
@@ -10507,7 +10524,7 @@ untun@^0.1.3:
     consola "^3.2.3"
     pathe "^1.1.1"
 
-untyped@^1.4.0:
+untyped@^1.4.0, untyped@^1.4.2:
   version "1.4.2"
   resolved "https://registry.npmjs.org/untyped/-/untyped-1.4.2.tgz#7945ea53357635434284e6112fd1afe84dd5dcab"
   integrity sha512-nC5q0DnPEPVURPhfPQLahhSTnemVtPzdx7ofiRxXpOB2SYnb3MfdU3DVGyJdS8Lx+tBWeAePO8BfU/3EgksM7Q==
