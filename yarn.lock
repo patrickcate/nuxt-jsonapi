@@ -1247,9 +1247,9 @@
     untyped "^1.4.0"
 
 "@nuxt/schema@^3.0.0", "@nuxt/schema@^3.9.1", "@nuxt/schema@^3.9.3":
-  version "3.10.3"
-  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.10.3.tgz#b9bdcced298b64f280f12936e518fe4f32c90328"
-  integrity sha512-a4cYbeskEVBPazgAhvUGkL/j7ho/iPWMK3vCEm6dRMjSqHVEITRosrj0aMfLbRrDpTrMjlRs0ZitxiaUfE/p5Q==
+  version "3.11.0"
+  resolved "https://registry.npmjs.org/@nuxt/schema/-/schema-3.11.0.tgz#1c07f47fec7c32a76da7b5712bc4ad49fd5f0304"
+  integrity sha512-vonev7BhcVoXwpOUuyQJAvXQpzw0R1Xi/B/nG24ufCEpIfcwJr6ihhDRYFvQ8yIdxZMK7W8/K73vmUDJQ42dRw==
   dependencies:
     "@nuxt/ui-templates" "^1.3.1"
     consola "^3.2.3"
@@ -1259,7 +1259,7 @@
     pkg-types "^1.0.3"
     scule "^1.3.0"
     std-env "^3.7.0"
-    ufo "^1.4.0"
+    ufo "^1.5.1"
     unimport "^3.7.1"
     untyped "^1.4.2"
 
@@ -10292,10 +10292,10 @@ typedarray@^0.0.6:
   resolved "https://registry.npmjs.org/typescript/-/typescript-5.3.3.tgz#b3ce6ba258e72e6305ba66f5c9b452aaee3ffe37"
   integrity sha512-pXWcraxM0uxAS+tN0AG/BF2TyqmHO014Z070UsJ+pFvYuRSq8KH8DmWpnbXe0pEPDHXZV3FcAbJkijJ5oNEnWw==
 
-ufo@^1.1.2, ufo@^1.2.0, ufo@^1.3.0, ufo@^1.3.1, ufo@^1.3.2, ufo@^1.4.0:
-  version "1.4.0"
-  resolved "https://registry.npmjs.org/ufo/-/ufo-1.4.0.tgz#39845b31be81b4f319ab1d99fd20c56cac528d32"
-  integrity sha512-Hhy+BhRBleFjpJ2vchUNN40qgkh0366FWJGqVLYBHev0vpHTrXSA0ryT+74UiW6KWsldNurQMKGqCm1M2zBciQ==
+ufo@^1.1.2, ufo@^1.2.0, ufo@^1.3.0, ufo@^1.3.1, ufo@^1.3.2, ufo@^1.5.1:
+  version "1.5.2"
+  resolved "https://registry.npmjs.org/ufo/-/ufo-1.5.2.tgz#e547561ac56896fc8b9a3f2fb2552169f3629035"
+  integrity sha512-eiutMaL0J2MKdhcOM1tUy13pIrYnyR87fEd8STJQFrrAwImwvlXkxlZEjaKah8r2viPohld08lt73QfLG1NxMg==
 
 uglify-js@^3.1.4:
   version "3.17.4"
