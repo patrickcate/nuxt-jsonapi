@@ -26,22 +26,22 @@ jobs:
         uses: actions/cache@v4
         with:
           path: node_modules
-          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/yarn.lock')) }}
+          key: ${{ matrix.os }}-node-v${{ matrix.node }}-deps-${{ hashFiles(format('{0}{1}', github.workspace, '/package.lock')) }}
 
       - name: Install dependencies
-        run: yarn install --frozen-lockfile
+        run: npm ci
 
       - name: Build playground
-        run: yarn build:playground
+        run: npm run dev:prepare
 
       - name: Lint
-        run: yarn lint
+        run: npm run lint
 
       - name: Check types
-        run: yarn types
+        run: npm run types
 
       - name: Run tests
-        run: yarn test
+        run: npm run test
 
       - name: Upload coverage to Codecov
         if: github.actor != 'dependabot[bot]'

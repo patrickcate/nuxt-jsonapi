@@ -39,18 +39,18 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build",
+    "prepack": "nuxt-module-build build",
     "dev": "nuxi dev playground",
     "dev:build": "nuxi build playground",
-    "dev:prepare": "nuxt-module-build --stub && nuxi prepare playground",
-    "build:module": "nuxt-module-build",
+    "dev:prepare": "nuxt-module-build build --stub && nuxt-module-build prepare && nuxi prepare playground",
+    "build:module": "nuxt-module-build build",
     "build:playground": "nuxi build playground",
     "prepare": "husky install",
     "commit": "cz",
     "lint": "eslint --fix --ext .js,.cjs,.mjs,.ts,.vue .",
     "types": "tsc --noEmit",
     "test:api-server": "node playground/server.mjs",
-    "test:vitest": "yarn vitest run --coverage",
+    "test:vitest": "npx vitest run --coverage",
     "test": "npm-run-all --parallel test:* -r",
     "semantic-release": "semantic-release"
   },
@@ -84,6 +84,7 @@
     "nuxt": "^3.9.3",
     "prettier": "^2.8.0",
     "semantic-release": "^20.0.0",
+    "typescript": "^5.4.2",
     "vitest": "^0.34.4"
   },
   "peerDependencies": {

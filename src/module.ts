@@ -11,12 +11,12 @@ import { name, version } from '../package.json'
 
 export interface ModuleOptions {
   baseURL: string
-  headers?: Object
+  headers?: {}
   camelCaseTypes?: boolean
   resourceCase?: 'kebab' | 'snake' | 'none'
   pluralize?: boolean
   timeout?: number
-  axiosOptions?: Object
+  axiosOptions?: {}
 }
 
 export default defineNuxtModule<ModuleOptions>({

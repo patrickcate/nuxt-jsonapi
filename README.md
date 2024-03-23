@@ -23,7 +23,7 @@ This module globally injects a `$jsonApi` instance you can use to access the cli
 1. Add `nuxt-jsonapi` dependency to your project
 
 ```bash
-yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
+npm run add nuxt-jsonapi # or npm install nuxt-jsonapi
 ```
 
 2. Add `nuxt-jsonapi` to the `modules` section of `nuxt.config.js`
