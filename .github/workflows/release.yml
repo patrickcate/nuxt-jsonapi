@@ -26,7 +26,7 @@ jobs:
         run: npm ci
 
       - name: Build playground
-        run: npm run build:playground
+        run: npm run dev:prepare
 
       - name: Build module
         run: npm run build:module

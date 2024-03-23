@@ -32,7 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build playground
-        run: npm run build:playground
+        run: npm run dev:prepare
 
       - name: Lint
         run: npm run lint
