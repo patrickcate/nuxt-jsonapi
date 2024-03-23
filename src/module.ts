@@ -33,7 +33,6 @@ export default defineNuxtModule<ModuleOptions>({
   },
   setup(options, nuxt) {
     nuxt.options.runtimeConfig.public.jsonApi = defu(
-      // @ts-expect-error: jsonApi are inferred as `unknown`
       nuxt.options.runtimeConfig.public.jsonApi,
       options,
     )
@@ -55,8 +54,7 @@ export default defineNuxtModule<ModuleOptions>({
 
     const baseUrl = process.env.NUXT_PUBLIC_JSON_API_BASE_URL
       ? process.env.NUXT_PUBLIC_JSON_API_BASE_URL
-      : // @ts-expect-error: jsonApi are inferred as `unknown`
-        nuxt.options.runtimeConfig.public.jsonApi.baseURL
+      : nuxt.options.runtimeConfig.public.jsonApi.baseURL
 
     const logger = useLogger(name)
     logger.info(`${bold('JSON:API Endpoint:')} ${underline(green(baseUrl))}`)
