@@ -23,7 +23,7 @@ jobs:
           node-version: 18
 
       - name: Install dependencies
-        run: npm run install
+        run: npm ci
 
       - name: Build playground
         run: npm run build:playground
