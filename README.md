@@ -2,7 +2,7 @@
 
 # nuxt-jsonapi
 
-[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Github Actions CI][github-actions-ci-src]][github-actions-ci-href] [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]
+[![npm version][npm-version-src]][npm-version-href] [![npm downloads][npm-downloads-src]][npm-downloads-href] [![Tests](https://github.com/patrickcate/nuxt-jsonapi/actions/workflows/ci.yml/badge.svg)](https://github.com/patrickcate/nuxt-jsonapi/actions/workflows/ci.yml) [![Codecov][codecov-src]][codecov-href] [![License][license-src]][license-href]
 
 > Easy JSON:API client integration for Nuxt.js
 
@@ -23,7 +23,7 @@ This module globally injects a `$jsonApi` instance you can use to access the cli
 1. Add `nuxt-jsonapi` dependency to your project
 
 ```bash
-yarn add nuxt-jsonapi # or npm install nuxt-jsonapi
+npm run add nuxt-jsonapi # or npm install nuxt-jsonapi
 ```
 
 2. Add `nuxt-jsonapi` to the `modules` section of `nuxt.config.js`
