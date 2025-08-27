@@ -22,10 +22,10 @@ const baseUrl = ref($jsonApi.axios.defaults.baseURL)
     <h2>Base URL: {{ baseUrl }}</h2>
 
     <h2>Options API</h2>
-    <OptionArticles></OptionArticles>
+    <OptionArticles />
 
     <h2>Composition API</h2>
-    <CompositionArticles></CompositionArticles>
+    <CompositionArticles />
   </div>
 </template>
 
