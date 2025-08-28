@@ -58,7 +58,7 @@
     "@nuxt/kit": "^3.0.0",
     "colorette": "^2.0.19",
     "defu": "^6.1.1",
-    "kitsu": "^10.0.4"
+    "kitsu": "^11.1.0"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.8.1",
@@ -86,7 +86,7 @@
     "vitest": "^3.2.4"
   },
   "peerDependencies": {
-    "axios": "^0.27.0"
+    "axios": "^1.11.0"
   },
   "publishConfig": {
     "access": "public"
