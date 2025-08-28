@@ -11,7 +11,7 @@ export default {
     [
       '@semantic-release/commit-analyzer',
       {
-        config: '@commitlint/config-conventional',
+        preset: 'conventionalcommits',
       },
     ],
     '@semantic-release/release-notes-generator',
