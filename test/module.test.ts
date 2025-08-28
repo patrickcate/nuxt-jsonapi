@@ -1,4 +1,3 @@
-/* @vitest-environment node */
 import { fileURLToPath } from 'node:url'
 import { setup, $fetch } from '@nuxt/test-utils'
 import { describe, expect, it } from 'vitest'
