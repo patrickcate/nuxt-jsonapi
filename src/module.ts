@@ -11,12 +11,15 @@ import { name, version } from '../package.json'
 
 export interface ModuleOptions {
   baseURL: string
-  headers?: {}
+  headers?: object
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
+  query: 'traditional' | 'modern' | Function
   camelCaseTypes?: boolean
   resourceCase?: 'kebab' | 'snake' | 'none'
   pluralize?: boolean
   timeout?: number
-  axiosOptions?: {}
+  hoistData?: boolean
+  axiosOptions?: object
 }
 
 export default defineNuxtModule<ModuleOptions>({
@@ -36,14 +39,6 @@ export default defineNuxtModule<ModuleOptions>({
       nuxt.options.runtimeConfig.public.jsonApi,
       options,
     )
-
-    // Remove once Kitsu switches to Axios >= 1.0 which uses ESM modules.
-    /* v8 ignore start */
-    nuxt.options.vite.optimizeDeps = nuxt.options.vite.optimizeDeps || {}
-    nuxt.options.vite.optimizeDeps.include =
-      nuxt.options.vite.optimizeDeps.include || []
-    nuxt.options.vite.optimizeDeps.include.push('axios', 'pluralize')
-    /* v8 ignore end */
 
     const { resolve } = createResolver(import.meta.url)
     const runtimeDir = fileURLToPath(new URL('./runtime', import.meta.url))
