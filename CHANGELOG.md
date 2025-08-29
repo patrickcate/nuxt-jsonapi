@@ -1,5 +1,22 @@
 # Changelog
 
+# [3.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.4...v3.0.0) (2025-08-29)
+
+
+### Bug Fixes
+
+* set `query` module option to be optional ([f514891](https://github.com/patrickcate/nuxt-jsonapi/commit/f5148914bbbe14392005cbef0249530758be7176))
+
+
+### Features
+
+* support Kitsu v11 ([54f1fcf](https://github.com/patrickcate/nuxt-jsonapi/commit/54f1fcfc82464bccec68c8895c0299427fbd935f))
+
+
+### BREAKING CHANGES
+
+* Requires Kitsu version ^11
+
 ## [2.0.4](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.3...v2.0.4) (2023-10-29)
 
 
