@@ -13,7 +13,7 @@ export interface ModuleOptions {
   baseURL: string
   headers?: object
   // eslint-disable-next-line @typescript-eslint/no-unsafe-function-type
-  query: 'traditional' | 'modern' | Function
+  query?: 'traditional' | 'modern' | Function
   camelCaseTypes?: boolean
   resourceCase?: 'kebab' | 'snake' | 'none'
   pluralize?: boolean
