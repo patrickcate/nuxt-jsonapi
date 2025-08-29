@@ -8,7 +8,7 @@
 
 [📖 &nbsp; **Release Notes**](./CHANGELOG.md)
 
-Version `2.x` support Nuxt `3.x`.
+Version `2.x` and `3.x` support Nuxt `3.x`.
 
 [Version `1.x`](https://github.com/patrickcate/nuxt-jsonapi/tree/v1.0.0) supports Nuxt `2.x`
 
@@ -23,7 +23,7 @@ This module globally injects a `$jsonApi` instance you can use to access the cli
 1. Add `nuxt-jsonapi` dependency to your project
 
 ```bash
-npm run add nuxt-jsonapi # or npm install nuxt-jsonapi
+npm install nuxt-jsonapi
 ```
 
 2. Add `nuxt-jsonapi` to the `modules` section of `nuxt.config.js`
