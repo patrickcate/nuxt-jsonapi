@@ -1,5 +1,12 @@
 # Changelog
 
+# [3.1.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v3.0.0...v3.1.0) (2026-01-21)
+
+
+### Features
+
+* **release:** add support for Nuxt 4 ([8af6762](https://github.com/patrickcate/nuxt-jsonapi/commit/8af6762a8a5e8f1d1c01495c06477867a44a5a40))
+
 # [3.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v2.0.4...v3.0.0) (2025-08-29)
 
 
