@@ -14,7 +14,7 @@
   "homepage": "https://github.com/patrickcate/nuxt-jsonapi",
   "repository": {
     "type": "git",
-    "url": "https://github.com/patrickcate/nuxt-jsonapi"
+    "url": "git+https://github.com/patrickcate/nuxt-jsonapi.git"
   },
   "bugs": {
     "url": "https://github.com/patrickcate/nuxt-jsonapi/issues"
