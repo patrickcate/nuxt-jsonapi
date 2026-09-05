@@ -1,5 +1,17 @@
 # Changelog
 
+# [4.0.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v3.1.0...v4.0.0) (2026-09-05)
+
+
+### Features
+
+* **npm:** update npm dependecies and add compatability for nuxt v4 ([27368f6](https://github.com/patrickcate/nuxt-jsonapi/commit/27368f60d596c107577599f75d02f4bd8af0efed))
+
+
+### BREAKING CHANGES
+
+* **npm:** Minimum support is now Nuxt v4
+
 # [3.1.0](https://github.com/patrickcate/nuxt-jsonapi/compare/v3.0.0...v3.1.0) (2026-01-21)
 
 
