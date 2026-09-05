@@ -63,37 +63,37 @@
   },
   "dependencies": {
     "colorette": "^2.0.19",
-    "defu": "^6.1.1",
+    "defu": "^6.1.7",
     "kitsu": "^11.1.0"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/cli": "^21.2.2",
+    "@commitlint/config-conventional": "^21.2.2",
     "@nuxt/eslint-config": "^1.9.0",
-    "@nuxt/kit": "^4.2.2",
-    "@nuxt/module-builder": "^1.0.2",
-    "@nuxt/schema": "^4.2.2",
-    "@nuxt/test-utils": "^3.0.0",
-    "@semantic-release/changelog": "^6.0.2",
-    "@semantic-release/git": "^10.0.1",
-    "@vitest/coverage-v8": "^3.2.4",
+    "@nuxt/kit": "^4.5.2",
+    "@nuxt/module-builder": "^1.0.3",
+    "@nuxt/schema": "^4.5.2",
+    "@nuxt/test-utils": "^4.2.0",
+    "@semantic-release/changelog": "^7.0.0",
+    "@semantic-release/git": "^11.0.1",
+    "@vitest/coverage-v8": "^4.1.11",
     "commitizen": "^4.2.5",
     "cz-customizable": "^7.0.0",
-    "eslint": "^9.34.0",
+    "eslint": "^10.10.0",
     "eslint-config-prettier": "^10.1.8",
     "eslint-plugin-prettier": "^5.5.4",
     "fake-json-api-server": "^1.7.0",
     "husky": "^9.1.7",
-    "lint-staged": "^16.1.5",
+    "lint-staged": "^17.5.0",
     "npm-run-all": "^4.1.5",
-    "nuxt": "^4.2.2",
+    "nuxt": "^4.5.2",
     "prettier": "^3.6.2",
-    "semantic-release": "^24.2.7",
+    "semantic-release": "^25.0.9",
     "typescript": "^5.4.2",
-    "vitest": "^3.2.4"
+    "vitest": "^4.1.11"
   },
   "peerDependencies": {
-    "axios": "^1.11.0"
+    "axios": "^1.20.0"
   },
   "publishConfig": {
     "access": "public"
